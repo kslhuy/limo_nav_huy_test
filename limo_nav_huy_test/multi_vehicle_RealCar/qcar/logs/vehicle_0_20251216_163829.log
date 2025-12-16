@@ -1,0 +1,50 @@
+2025-12-16 16:38:29 - [Car Car_0] - INFO - __init__:48 - ============================================================
+2025-12-16 16:38:29 - [Car Car_0] - INFO - __init__:49 - Vehicle Controller Initialized - Car ID: 0
+2025-12-16 16:38:29 - [Car Car_0] - INFO - __init__:50 - ============================================================
+2025-12-16 16:38:29 - [Car Car_0] - INFO - __init__:110 - V2VManager initialized for vehicle 0
+2025-12-16 16:38:29 - [Car Car_0] - INFO - __init__:87 - Creating Ground Station client...
+2025-12-16 16:38:29 - [Car Car_0] - INFO - _initialize_network_2_GroundStation:595 - Creating Ground Station client...
+2025-12-16 16:38:29 - [Car Car_0] - INFO - initialize_network:75 - Connecting to Ground Station at 192.168.137.1:5000
+2025-12-16 16:38:29 - [Car Car_0] - INFO - initialize_network:84 - Connection attempt 1 to Ground Station...
+2025-12-16 16:38:29 - [Car Car_0] - INFO - initialize_network:88 - Connected to Ground Station successfully in 0.01s
+2025-12-16 16:38:29 - [Car Car_0] - INFO - _communication_loop:154 - Ground Station communication loop started
+2025-12-16 16:38:29 - [Car Car_0] - INFO - start_threads:145 - Ground Station communication thread started
+2025-12-16 16:38:29 - [Car Car_0] - INFO - _initialize_network_2_GroundStation:612 - Ground Station communication established
+2025-12-16 16:38:29 - [Car Car_0] - INFO - __init__:95 - Initializing QCar hardware...
+2025-12-16 16:38:29 - [Car Car_0] - INFO - __init__:86 - Loaded controller config: Long=cacc, Lat=pure_pursuit
+2025-12-16 16:38:29 - [Car Car_0] - INFO - enter:51 - Entering INITIALIZING state
+2025-12-16 16:38:29 - [Car Car_0] - INFO - __init__:57 -  State machine initialized in INITIALIZING state
+2025-12-16 16:38:29 - [Car Car_0] - INFO - __init__:111 - VehicleObserver initialized: vehicle_id=0, 
+2025-12-16 16:38:29 - [Car Car_0] - INFO - register_state_listeners:173 - [+] Event system connected to state machine
+2025-12-16 16:38:29 - [Car Car_0] - INFO - initialize_event_system:71 - [E] Event system initialized
+2025-12-16 16:38:29 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.3s)
+2025-12-16 16:38:30 - [Car Car_0] - INFO - _initialize_all_components:131 - Starting component initialization...
+2025-12-16 16:38:30 - [Car Car_0] - INFO - _initialize_path_planning:223 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-16 16:38:30 - [Car Car_0] - INFO - _initialize_path_planning:234 - Generated path with 1078 waypoints
+2025-12-16 16:38:30 - [Car Car_0] - INFO - _initialize_all_components:138 -   [1/4] Path planning ready
+2025-12-16 16:38:30 - [Car Car_0] - INFO - _initialize_qcar:304 - LIMO Car mode detected
+2025-12-16 16:38:30 - [Car Car_0] - INFO - _initialize_physical_qcar:359 - [LIMO/ROS] Skipping QCar and QCarGPS instantiation (handled by ROS adapters)
+2025-12-16 16:38:30 - [Car Car_0] - INFO - _wait_for_gps:379 - Waiting for initial GPS reading...
+2025-12-16 16:38:30 - [Car Car_0] - INFO - _wait_for_gps:389 - Initial pose: x=-0.43, y=-0.05, theta=1.35
+2025-12-16 16:38:30 - [Car Car_0] - INFO - _initialize_qcar_ekf:113 - QCarEKF initialized successfully
+2025-12-16 16:38:30 - [Car Car_0] - INFO - initialize_local_estimator:176 - Local estimator initialized: ekf
+2025-12-16 16:38:30 - [Car Car_0] - INFO - _initialize_state_estimator:412 - Local estimator initialized at pose: x=-0.43, y=-0.05, theta=1.35
+2025-12-16 16:38:30 - [Car Car_0] - INFO - _initialize_qcar:318 - QCar hardware initialized with state estimation
+2025-12-16 16:38:30 - [Car Car_0] - INFO - _initialize_all_components:138 -   [2/4] QCar hardware ready
+2025-12-16 16:38:30 - [Car Car_0] - WARNING - _initialize_perception:447 - Perception skipped: name 'YOLODriveLogic' is not defined
+2025-12-16 16:38:30 - [Car Car_0] - WARNING - _initialize_perception:448 - Vehicle will operate without YOLO perception
+2025-12-16 16:38:30 - [Car Car_0] - INFO - _initialize_all_components:138 -   [3/4] Perception ready
+2025-12-16 16:38:31 - [Car Car_0] - INFO - setup_telemetry_logging:153 - Telemetry logging initialized (async): /home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/data_logs/run_20251216_163831/telemetry_vehicle_0.csv
+2025-12-16 16:38:31 - [Car Car_0] - INFO - _setup_fleet_estimation_logging:225 - Fleet estimation logging initialized: /home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/data_logs/run_20251216_163831/received_fleet_estimations_vehicle_0.csv
+2025-12-16 16:38:31 - [Car Car_0] - INFO - _setup_local_estimation_logging:248 - Local estimation logging initialized: /home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/data_logs/run_20251216_163831/received_local_estimations_vehicle_0.csv
+2025-12-16 16:38:31 - [Car Car_0] - INFO - _setup_following_leader_logging:338 - Following leader state logging initialized: /home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/data_logs/run_20251216_163831/following_leader_control_vehicle_0.csv
+2025-12-16 16:38:31 - [Car Car_0] - INFO - _initialize_all_components:138 -   [4/4] Telemetry logging ready
+2025-12-16 16:38:31 - [Car Car_0] - INFO - _initialize_all_components:141 - All 4 components initialized successfully!
+2025-12-16 16:38:31 - [Car Car_0] - INFO - update:82 - [STEP 1/2] All components initialized
+2025-12-16 16:38:31 - [Car Car_0] - INFO - update:94 - [STEP 2/2] System ready to start
+2025-12-16 16:38:31 - [Car Car_0] - INFO - update:99 - [SUCCESS] Initialization complete in 2.0s
+2025-12-16 16:38:31 - [Car Car_0] - INFO - exit:203 - [INIT] Exiting - completed in 2.3s
+2025-12-16 16:38:31 - [Car Car_0] - INFO - log_state_transition:542 - State transition: INITIALIZING -> WAITING_FOR_START
+2025-12-16 16:38:31 - [Car Car_0] - INFO - _transition_to:134 - Transition reason: INITIALIZATION_COMPLETE
+2025-12-16 16:38:31 - [Car Car_0] - INFO - enter:37 - Entering WAITING_FOR_START state
+2025-12-16 16:38:31 - [Car Car_0] - INFO - enter:48 - Ready for start command

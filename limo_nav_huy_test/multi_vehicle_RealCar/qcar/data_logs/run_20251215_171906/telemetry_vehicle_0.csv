@@ -1,0 +1,1 @@
+timestamp,time,x,y,th,v,u,delta,v_ref,yolo_gain,state,gps_valid,platoon_enabled,platoon_is_leader,platoon_position,platoon_leader_id,platoon_setup_complete,v2v_active,v2v_peers,v2v_protocol,v2v_local_rate,v2v_fleet_rate

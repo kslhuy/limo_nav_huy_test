@@ -1,0 +1,92 @@
+2025-12-16 13:56:27 - [Car Car_0] - INFO - __init__:48 - ============================================================
+2025-12-16 13:56:27 - [Car Car_0] - INFO - __init__:49 - Vehicle Controller Initialized - Car ID: 0
+2025-12-16 13:56:27 - [Car Car_0] - INFO - __init__:50 - ============================================================
+2025-12-16 13:56:27 - [Car Car_0] - INFO - __init__:110 - V2VManager initialized for vehicle 0
+2025-12-16 13:56:27 - [Car Car_0] - INFO - __init__:87 - Creating Ground Station client...
+2025-12-16 13:56:27 - [Car Car_0] - INFO - _initialize_network_2_GroundStation:595 - Creating Ground Station client...
+2025-12-16 13:56:27 - [Car Car_0] - INFO - initialize_network:75 - Connecting to Ground Station at 192.168.137.1:5000
+2025-12-16 13:56:27 - [Car Car_0] - INFO - initialize_network:84 - Connection attempt 1 to Ground Station...
+2025-12-16 13:56:27 - [Car Car_0] - INFO - initialize_network:88 - Connected to Ground Station successfully in 0.01s
+2025-12-16 13:56:27 - [Car Car_0] - INFO - _communication_loop:154 - Ground Station communication loop started
+2025-12-16 13:56:27 - [Car Car_0] - INFO - start_threads:145 - Ground Station communication thread started
+2025-12-16 13:56:27 - [Car Car_0] - INFO - _initialize_network_2_GroundStation:612 - Ground Station communication established
+2025-12-16 13:56:27 - [Car Car_0] - INFO - __init__:95 - Initializing QCar hardware...
+2025-12-16 13:56:27 - [Car Car_0] - INFO - __init__:86 - Loaded controller config: Long=cacc, Lat=pure_pursuit
+2025-12-16 13:56:27 - [Car Car_0] - INFO - enter:51 - Entering INITIALIZING state
+2025-12-16 13:56:27 - [Car Car_0] - INFO - __init__:57 -  State machine initialized in INITIALIZING state
+2025-12-16 13:56:27 - [Car Car_0] - INFO - __init__:111 - VehicleObserver initialized: vehicle_id=0, 
+2025-12-16 13:56:27 - [Car Car_0] - INFO - register_state_listeners:173 - [+] Event system connected to state machine
+2025-12-16 13:56:27 - [Car Car_0] - INFO - initialize_event_system:71 - [E] Event system initialized
+2025-12-16 13:56:28 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.4s)
+2025-12-16 13:56:28 - [Car Car_0] - INFO - _initialize_all_components:131 - Starting component initialization...
+2025-12-16 13:56:28 - [Car Car_0] - INFO - _initialize_path_planning:223 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-16 13:56:28 - [Car Car_0] - INFO - _initialize_path_planning:234 - Generated path with 1078 waypoints
+2025-12-16 13:56:28 - [Car Car_0] - INFO - _initialize_all_components:138 -   [1/4] Path planning ready
+2025-12-16 13:56:29 - [Car Car_0] - INFO - _initialize_qcar:304 - LIMO Car mode detected
+2025-12-16 13:56:29 - [Car Car_0] - INFO - _initialize_physical_qcar:359 - [LIMO/ROS] Skipping QCar and QCarGPS instantiation (handled by ROS adapters)
+2025-12-16 13:56:29 - [Car Car_0] - INFO - _wait_for_gps:379 - Waiting for initial GPS reading...
+2025-12-16 13:56:29 - [Car Car_0] - INFO - _wait_for_gps:389 - Initial pose: x=-0.01, y=-0.00, theta=-0.19
+2025-12-16 13:56:29 - [Car Car_0] - INFO - _initialize_qcar_ekf:113 - QCarEKF initialized successfully
+2025-12-16 13:56:29 - [Car Car_0] - INFO - initialize_local_estimator:176 - Local estimator initialized: ekf
+2025-12-16 13:56:29 - [Car Car_0] - INFO - _initialize_state_estimator:412 - Local estimator initialized at pose: x=-0.01, y=-0.00, theta=-0.19
+2025-12-16 13:56:29 - [Car Car_0] - INFO - _initialize_qcar:318 - QCar hardware initialized with state estimation
+2025-12-16 13:56:29 - [Car Car_0] - INFO - _initialize_all_components:138 -   [2/4] QCar hardware ready
+2025-12-16 13:56:29 - [Car Car_0] - WARNING - _initialize_perception:447 - Perception skipped: name 'YOLODriveLogic' is not defined
+2025-12-16 13:56:29 - [Car Car_0] - WARNING - _initialize_perception:448 - Vehicle will operate without YOLO perception
+2025-12-16 13:56:29 - [Car Car_0] - INFO - _initialize_all_components:138 -   [3/4] Perception ready
+2025-12-16 13:56:29 - [Car Car_0] - INFO - setup_telemetry_logging:153 - Telemetry logging initialized (async): /home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/data_logs/run_20251216_135629/telemetry_vehicle_0.csv
+2025-12-16 13:56:29 - [Car Car_0] - INFO - _setup_fleet_estimation_logging:225 - Fleet estimation logging initialized: /home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/data_logs/run_20251216_135629/received_fleet_estimations_vehicle_0.csv
+2025-12-16 13:56:29 - [Car Car_0] - INFO - _setup_local_estimation_logging:248 - Local estimation logging initialized: /home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/data_logs/run_20251216_135629/received_local_estimations_vehicle_0.csv
+2025-12-16 13:56:29 - [Car Car_0] - INFO - _setup_following_leader_logging:338 - Following leader state logging initialized: /home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/data_logs/run_20251216_135629/following_leader_control_vehicle_0.csv
+2025-12-16 13:56:29 - [Car Car_0] - INFO - _initialize_all_components:138 -   [4/4] Telemetry logging ready
+2025-12-16 13:56:29 - [Car Car_0] - INFO - _initialize_all_components:141 - All 4 components initialized successfully!
+2025-12-16 13:56:29 - [Car Car_0] - INFO - update:82 - [STEP 1/2] All components initialized
+2025-12-16 13:56:29 - [Car Car_0] - INFO - update:94 - [STEP 2/2] System ready to start
+2025-12-16 13:56:30 - [Car Car_0] - INFO - update:99 - [SUCCESS] Initialization complete in 2.0s
+2025-12-16 13:56:30 - [Car Car_0] - INFO - exit:203 - [INIT] Exiting - completed in 2.3s
+2025-12-16 13:56:30 - [Car Car_0] - INFO - log_state_transition:542 - State transition: INITIALIZING -> WAITING_FOR_START
+2025-12-16 13:56:30 - [Car Car_0] - INFO - _transition_to:134 - Transition reason: INITIALIZATION_COMPLETE
+2025-12-16 13:56:30 - [Car Car_0] - INFO - enter:37 - Entering WAITING_FOR_START state
+2025-12-16 13:56:30 - [Car Car_0] - INFO - enter:48 - Ready for start command
+2025-12-16 13:56:39 - [Car Car_0] - INFO - update:99 - [STATE] Current: WAITING_FOR_START (for 9.4s)
+2025-12-16 13:56:40 - [Car Car_0] - INFO - handle_event:176 -  Manual mode activated with control_type: keyboard
+2025-12-16 13:56:40 - [Car Car_0] - INFO - exit:301 - Exiting WAITING_FOR_START state
+2025-12-16 13:56:40 - [Car Car_0] - INFO - exit:304 - Waited for 10.1s before starting
+2025-12-16 13:56:40 - [Car Car_0] - INFO - log_state_transition:542 - State transition: WAITING_FOR_START -> MANUAL_MODE
+2025-12-16 13:56:40 - [Car Car_0] - INFO - _transition_to:134 - Transition reason: MANUAL_MODE_ACTIVATED
+2025-12-16 13:56:40 - [Car Car_0] - INFO - enter:38 - [MANUAL] Entering MANUAL_MODE state
+2025-12-16 13:56:40 - [Car Car_0] - INFO - enter:51 - [MANUAL] Manual mode activated - waiting for control commands
+2025-12-16 13:56:40 - [Car Car_0] - INFO - enter:52 - [MANUAL] Command timeout: 1.0s
+2025-12-16 13:56:40 - [Car Car_0] - INFO - handle_event:131 - [MANUAL] First control command received: throttle=0.00, steering=0.00
+2025-12-16 13:56:40 - [Car Car_0] - ERROR - log_error:547 - [MANUAL] LED update error: 'ROSQCarAdapter' object has no attribute 'read_write_std'
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/manual_mode_state.py", line 184, in _update_led_indicators
+    self.vehicle_logic.qcar.read_write_std(
+AttributeError: 'ROSQCarAdapter' object has no attribute 'read_write_std'
+2025-12-16 13:56:40 - [Car Car_0] - ERROR - log_error:547 - [MANUAL] LED update error: 'ROSQCarAdapter' object has no attribute 'read_write_std'
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/manual_mode_state.py", line 184, in _update_led_indicators
+    self.vehicle_logic.qcar.read_write_std(
+AttributeError: 'ROSQCarAdapter' object has no attribute 'read_write_std'
+2025-12-16 13:56:45 - [Car Car_0] - INFO - handle_event:135 - [MANUAL] Command #200: throttle=0.00, steering=-0.09
+2025-12-16 13:56:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: MANUAL_MODE (for 9.2s)
+2025-12-16 13:56:49 - [Car Car_0] - INFO - _periodic_status_logging:217 - [MANUAL] Manual mode active for 9.2s - Commands: 329 (avg 35.6 Hz)
+2025-12-16 13:56:51 - [Car Car_0] - INFO - handle_event:135 - [MANUAL] Command #400: throttle=0.00, steering=0.07
+2025-12-16 13:56:54 - [Car Car_0] - ERROR - log_error:547 - [MANUAL] LED update error: 'ROSQCarAdapter' object has no attribute 'read_write_std'
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/manual_mode_state.py", line 184, in _update_led_indicators
+    self.vehicle_logic.qcar.read_write_std(
+AttributeError: 'ROSQCarAdapter' object has no attribute 'read_write_std'
+2025-12-16 13:56:57 - [Car Car_0] - INFO - handle_event:135 - [MANUAL] Command #600: throttle=0.00, steering=0.00
+2025-12-16 13:56:59 - [Car Car_0] - INFO - update:99 - [STATE] Current: MANUAL_MODE (for 19.3s)
+2025-12-16 13:56:59 - [Car Car_0] - INFO - _periodic_status_logging:217 - [MANUAL] Manual mode active for 19.3s - Commands: 687 (avg 35.7 Hz)
+2025-12-16 13:57:02 - [Car Car_0] - INFO - handle_event:135 - [MANUAL] Command #800: throttle=-0.15, steering=0.00
+2025-12-16 13:57:08 - [Car Car_0] - INFO - handle_event:135 - [MANUAL] Command #1000: throttle=0.00, steering=-0.40
+2025-12-16 13:57:08 - [Car Car_0] - ERROR - log_error:547 - [MANUAL] LED update error: 'ROSQCarAdapter' object has no attribute 'read_write_std'
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/manual_mode_state.py", line 184, in _update_led_indicators
+    self.vehicle_logic.qcar.read_write_std(
+AttributeError: 'ROSQCarAdapter' object has no attribute 'read_write_std'
+2025-12-16 13:57:09 - [Car Car_0] - INFO - update:99 - [STATE] Current: MANUAL_MODE (for 29.3s)
+2025-12-16 13:57:09 - [Car Car_0] - INFO - _periodic_status_logging:217 - [MANUAL] Manual mode active for 29.3s - Commands: 1048 (avg 35.8 Hz)
+2025-12-16 13:57:13 - [Car Car_0] - INFO - handle_event:135 - [MANUAL] Command #1200: throttle=0.00, steering=0.00

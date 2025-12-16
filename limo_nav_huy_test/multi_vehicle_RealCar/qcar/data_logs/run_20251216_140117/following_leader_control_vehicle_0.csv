@@ -1,0 +1,1 @@
+timestamp,follower_x,follower_y,follower_theta,follower_velocity,follower_target_velocity,leader_x,leader_y,leader_theta,leader_velocity,throttle_u,steering_delta,distance_to_leader,velocity_difference

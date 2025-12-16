@@ -1,0 +1,273 @@
+2025-12-15 16:59:50 - [Car Car_0] - INFO - __init__:48 - ============================================================
+2025-12-15 16:59:50 - [Car Car_0] - INFO - __init__:49 - Vehicle Controller Initialized - Car ID: 0
+2025-12-15 16:59:50 - [Car Car_0] - INFO - __init__:50 - ============================================================
+2025-12-15 16:59:50 - [Car Car_0] - INFO - __init__:110 - V2VManager initialized for vehicle 0
+2025-12-15 16:59:50 - [Car Car_0] - INFO - __init__:87 - Creating Ground Station client...
+2025-12-15 16:59:50 - [Car Car_0] - INFO - _initialize_network_2_GroundStation:595 - Creating Ground Station client...
+2025-12-15 16:59:50 - [Car Car_0] - INFO - initialize_network:75 - Connecting to Ground Station at 192.168.137.1:5000
+2025-12-15 16:59:50 - [Car Car_0] - INFO - initialize_network:84 - Connection attempt 1 to Ground Station...
+2025-12-15 16:59:50 - [Car Car_0] - INFO - initialize_network:88 - Connected to Ground Station successfully in 0.00s
+2025-12-15 16:59:50 - [Car Car_0] - INFO - _communication_loop:154 - Ground Station communication loop started
+2025-12-15 16:59:50 - [Car Car_0] - INFO - start_threads:145 - Ground Station communication thread started
+2025-12-15 16:59:50 - [Car Car_0] - INFO - _initialize_network_2_GroundStation:612 - Ground Station communication established
+2025-12-15 16:59:50 - [Car Car_0] - INFO - __init__:95 - Initializing QCar hardware...
+2025-12-15 16:59:50 - [Car Car_0] - INFO - __init__:86 - Loaded controller config: Long=cacc, Lat=pure_pursuit
+2025-12-15 16:59:50 - [Car Car_0] - INFO - enter:51 - Entering INITIALIZING state
+2025-12-15 16:59:50 - [Car Car_0] - INFO - __init__:57 -  State machine initialized in INITIALIZING state
+2025-12-15 16:59:50 - [Car Car_0] - INFO - __init__:111 - VehicleObserver initialized: vehicle_id=0, 
+2025-12-15 16:59:50 - [Car Car_0] - INFO - register_state_listeners:173 - [+] Event system connected to state machine
+2025-12-15 16:59:50 - [Car Car_0] - INFO - initialize_event_system:71 - [E] Event system initialized
+2025-12-15 16:59:50 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.3s)
+2025-12-15 16:59:50 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.3s)
+2025-12-15 16:59:50 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.3s)
+2025-12-15 16:59:50 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.3s)
+2025-12-15 16:59:50 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.4s)
+2025-12-15 16:59:50 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.4s)
+2025-12-15 16:59:50 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.4s)
+2025-12-15 16:59:50 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.4s)
+2025-12-15 16:59:50 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.4s)
+2025-12-15 16:59:50 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.4s)
+2025-12-15 16:59:50 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.4s)
+2025-12-15 16:59:50 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.4s)
+2025-12-15 16:59:50 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.4s)
+2025-12-15 16:59:50 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.4s)
+2025-12-15 16:59:50 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.5s)
+2025-12-15 16:59:50 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.5s)
+2025-12-15 16:59:50 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.5s)
+2025-12-15 16:59:50 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.5s)
+2025-12-15 16:59:50 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.5s)
+2025-12-15 16:59:50 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.5s)
+2025-12-15 16:59:50 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.5s)
+2025-12-15 16:59:50 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.5s)
+2025-12-15 16:59:50 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.5s)
+2025-12-15 16:59:51 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.5s)
+2025-12-15 16:59:51 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.6s)
+2025-12-15 16:59:51 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.6s)
+2025-12-15 16:59:51 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.6s)
+2025-12-15 16:59:51 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.6s)
+2025-12-15 16:59:51 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.6s)
+2025-12-15 16:59:51 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.6s)
+2025-12-15 16:59:51 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.6s)
+2025-12-15 16:59:51 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.6s)
+2025-12-15 16:59:51 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.6s)
+2025-12-15 16:59:51 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.6s)
+2025-12-15 16:59:51 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.7s)
+2025-12-15 16:59:51 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.7s)
+2025-12-15 16:59:51 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.7s)
+2025-12-15 16:59:51 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.7s)
+2025-12-15 16:59:51 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.7s)
+2025-12-15 16:59:51 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.7s)
+2025-12-15 16:59:51 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.7s)
+2025-12-15 16:59:51 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.7s)
+2025-12-15 16:59:51 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.7s)
+2025-12-15 16:59:51 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.7s)
+2025-12-15 16:59:51 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.8s)
+2025-12-15 16:59:51 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.8s)
+2025-12-15 16:59:51 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.8s)
+2025-12-15 16:59:51 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.8s)
+2025-12-15 16:59:51 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.8s)
+2025-12-15 16:59:51 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.8s)
+2025-12-15 16:59:51 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.8s)
+2025-12-15 16:59:51 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.8s)
+2025-12-15 16:59:51 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.8s)
+2025-12-15 16:59:51 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.8s)
+2025-12-15 16:59:51 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.9s)
+2025-12-15 16:59:51 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.9s)
+2025-12-15 16:59:51 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.9s)
+2025-12-15 16:59:51 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.9s)
+2025-12-15 16:59:51 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.9s)
+2025-12-15 16:59:51 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.9s)
+2025-12-15 16:59:51 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.9s)
+2025-12-15 16:59:51 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.9s)
+2025-12-15 16:59:51 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.9s)
+2025-12-15 16:59:51 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.9s)
+2025-12-15 16:59:51 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 1.0s)
+2025-12-15 16:59:51 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 1.0s)
+2025-12-15 16:59:51 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 1.0s)
+2025-12-15 16:59:51 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 1.0s)
+2025-12-15 16:59:51 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 1.0s)
+2025-12-15 16:59:51 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 1.0s)
+2025-12-15 16:59:51 - [Car Car_0] - INFO - _initialize_all_components:131 - Starting component initialization...
+2025-12-15 16:59:51 - [Car Car_0] - INFO - _initialize_path_planning:223 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 16:59:51 - [Car Car_0] - INFO - _initialize_path_planning:234 - Generated path with 1078 waypoints
+2025-12-15 16:59:51 - [Car Car_0] - INFO - _initialize_all_components:138 -   [1/4] Path planning ready
+2025-12-15 16:59:51 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: QCarGPS.__init__() got an unexpected keyword argument 'initialPose'
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 307, in _initialize_qcar
+    self._initialize_physical_qcar()
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 361, in _initialize_physical_qcar
+    self.vehicle_logic.gps = QCarGPS(
+TypeError: QCarGPS.__init__() got an unexpected keyword argument 'initialPose'
+2025-12-15 16:59:51 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 16:59:51 - [Car Car_0] - ERROR - log_error:547 - Sensor data update error: 'QCar' object has no attribute 'motorTach'
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/Observer/VehicleObserverSimple.py", line 259, in update_sensor_data
+    'motor_tach': qcar.motorTach,
+AttributeError: 'QCar' object has no attribute 'motorTach'
+2025-12-15 16:59:51 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 1.5s)
+2025-12-15 16:59:51 - [Car Car_0] - INFO - _initialize_all_components:131 - Starting component initialization...
+2025-12-15 16:59:51 - [Car Car_0] - INFO - _initialize_path_planning:223 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 16:59:51 - [Car Car_0] - INFO - _initialize_path_planning:234 - Generated path with 1078 waypoints
+2025-12-15 16:59:51 - [Car Car_0] - INFO - _initialize_all_components:138 -   [1/4] Path planning ready
+2025-12-15 16:59:52 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: QCarGPS.__init__() got an unexpected keyword argument 'initialPose'
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 307, in _initialize_qcar
+    self._initialize_physical_qcar()
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 361, in _initialize_physical_qcar
+    self.vehicle_logic.gps = QCarGPS(
+TypeError: QCarGPS.__init__() got an unexpected keyword argument 'initialPose'
+2025-12-15 16:59:52 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 16:59:52 - [Car Car_0] - ERROR - log_error:547 - Sensor data update error: 'QCar' object has no attribute 'motorTach'
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/Observer/VehicleObserverSimple.py", line 259, in update_sensor_data
+    'motor_tach': qcar.motorTach,
+AttributeError: 'QCar' object has no attribute 'motorTach'
+2025-12-15 16:59:52 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 2.0s)
+2025-12-15 16:59:52 - [Car Car_0] - INFO - _initialize_all_components:131 - Starting component initialization...
+2025-12-15 16:59:52 - [Car Car_0] - INFO - _initialize_path_planning:223 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 16:59:52 - [Car Car_0] - INFO - _initialize_path_planning:234 - Generated path with 1078 waypoints
+2025-12-15 16:59:52 - [Car Car_0] - INFO - _initialize_all_components:138 -   [1/4] Path planning ready
+2025-12-15 16:59:53 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: QCarGPS.__init__() got an unexpected keyword argument 'initialPose'
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 307, in _initialize_qcar
+    self._initialize_physical_qcar()
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 361, in _initialize_physical_qcar
+    self.vehicle_logic.gps = QCarGPS(
+TypeError: QCarGPS.__init__() got an unexpected keyword argument 'initialPose'
+2025-12-15 16:59:53 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 16:59:53 - [Car Car_0] - ERROR - log_error:547 - Sensor data update error: 'QCar' object has no attribute 'motorTach'
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/Observer/VehicleObserverSimple.py", line 259, in update_sensor_data
+    'motor_tach': qcar.motorTach,
+AttributeError: 'QCar' object has no attribute 'motorTach'
+2025-12-15 16:59:53 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 2.5s)
+2025-12-15 16:59:53 - [Car Car_0] - INFO - _initialize_all_components:131 - Starting component initialization...
+2025-12-15 16:59:53 - [Car Car_0] - INFO - _initialize_path_planning:223 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 16:59:53 - [Car Car_0] - INFO - _initialize_path_planning:234 - Generated path with 1078 waypoints
+2025-12-15 16:59:53 - [Car Car_0] - INFO - _initialize_all_components:138 -   [1/4] Path planning ready
+2025-12-15 16:59:53 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: QCarGPS.__init__() got an unexpected keyword argument 'initialPose'
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 307, in _initialize_qcar
+    self._initialize_physical_qcar()
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 361, in _initialize_physical_qcar
+    self.vehicle_logic.gps = QCarGPS(
+TypeError: QCarGPS.__init__() got an unexpected keyword argument 'initialPose'
+2025-12-15 16:59:53 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 16:59:53 - [Car Car_0] - ERROR - log_error:547 - Sensor data update error: 'QCar' object has no attribute 'motorTach'
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/Observer/VehicleObserverSimple.py", line 259, in update_sensor_data
+    'motor_tach': qcar.motorTach,
+AttributeError: 'QCar' object has no attribute 'motorTach'
+2025-12-15 16:59:53 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 3.1s)
+2025-12-15 16:59:53 - [Car Car_0] - INFO - _initialize_all_components:131 - Starting component initialization...
+2025-12-15 16:59:53 - [Car Car_0] - INFO - _initialize_path_planning:223 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 16:59:53 - [Car Car_0] - INFO - _initialize_path_planning:234 - Generated path with 1078 waypoints
+2025-12-15 16:59:53 - [Car Car_0] - INFO - _initialize_all_components:138 -   [1/4] Path planning ready
+2025-12-15 16:59:54 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: QCarGPS.__init__() got an unexpected keyword argument 'initialPose'
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 307, in _initialize_qcar
+    self._initialize_physical_qcar()
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 361, in _initialize_physical_qcar
+    self.vehicle_logic.gps = QCarGPS(
+TypeError: QCarGPS.__init__() got an unexpected keyword argument 'initialPose'
+2025-12-15 16:59:54 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 16:59:54 - [Car Car_0] - ERROR - log_error:547 - Sensor data update error: 'QCar' object has no attribute 'motorTach'
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/Observer/VehicleObserverSimple.py", line 259, in update_sensor_data
+    'motor_tach': qcar.motorTach,
+AttributeError: 'QCar' object has no attribute 'motorTach'
+2025-12-15 16:59:54 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 3.6s)
+2025-12-15 16:59:54 - [Car Car_0] - INFO - _initialize_all_components:131 - Starting component initialization...
+2025-12-15 16:59:54 - [Car Car_0] - INFO - _initialize_path_planning:223 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 16:59:54 - [Car Car_0] - INFO - _initialize_path_planning:234 - Generated path with 1078 waypoints
+2025-12-15 16:59:54 - [Car Car_0] - INFO - _initialize_all_components:138 -   [1/4] Path planning ready
+2025-12-15 16:59:54 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: QCarGPS.__init__() got an unexpected keyword argument 'initialPose'
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 307, in _initialize_qcar
+    self._initialize_physical_qcar()
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 361, in _initialize_physical_qcar
+    self.vehicle_logic.gps = QCarGPS(
+TypeError: QCarGPS.__init__() got an unexpected keyword argument 'initialPose'
+2025-12-15 16:59:54 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 16:59:54 - [Car Car_0] - ERROR - log_error:547 - Sensor data update error: 'QCar' object has no attribute 'motorTach'
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/Observer/VehicleObserverSimple.py", line 259, in update_sensor_data
+    'motor_tach': qcar.motorTach,
+AttributeError: 'QCar' object has no attribute 'motorTach'
+2025-12-15 16:59:54 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 4.1s)
+2025-12-15 16:59:54 - [Car Car_0] - INFO - _initialize_all_components:131 - Starting component initialization...
+2025-12-15 16:59:54 - [Car Car_0] - INFO - _initialize_path_planning:223 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 16:59:54 - [Car Car_0] - INFO - _initialize_path_planning:234 - Generated path with 1078 waypoints
+2025-12-15 16:59:54 - [Car Car_0] - INFO - _initialize_all_components:138 -   [1/4] Path planning ready
+2025-12-15 16:59:55 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: QCarGPS.__init__() got an unexpected keyword argument 'initialPose'
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 307, in _initialize_qcar
+    self._initialize_physical_qcar()
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 361, in _initialize_physical_qcar
+    self.vehicle_logic.gps = QCarGPS(
+TypeError: QCarGPS.__init__() got an unexpected keyword argument 'initialPose'
+2025-12-15 16:59:55 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 16:59:55 - [Car Car_0] - ERROR - log_error:547 - Sensor data update error: 'QCar' object has no attribute 'motorTach'
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/Observer/VehicleObserverSimple.py", line 259, in update_sensor_data
+    'motor_tach': qcar.motorTach,
+AttributeError: 'QCar' object has no attribute 'motorTach'
+2025-12-15 16:59:55 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 4.6s)
+2025-12-15 16:59:55 - [Car Car_0] - INFO - _initialize_all_components:131 - Starting component initialization...
+2025-12-15 16:59:55 - [Car Car_0] - INFO - _initialize_path_planning:223 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 16:59:55 - [Car Car_0] - INFO - _initialize_path_planning:234 - Generated path with 1078 waypoints
+2025-12-15 16:59:55 - [Car Car_0] - INFO - _initialize_all_components:138 -   [1/4] Path planning ready
+2025-12-15 16:59:55 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: QCarGPS.__init__() got an unexpected keyword argument 'initialPose'
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 307, in _initialize_qcar
+    self._initialize_physical_qcar()
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 361, in _initialize_physical_qcar
+    self.vehicle_logic.gps = QCarGPS(
+TypeError: QCarGPS.__init__() got an unexpected keyword argument 'initialPose'
+2025-12-15 16:59:55 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 16:59:55 - [Car Car_0] - ERROR - log_error:547 - Sensor data update error: 'QCar' object has no attribute 'motorTach'
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/Observer/VehicleObserverSimple.py", line 259, in update_sensor_data
+    'motor_tach': qcar.motorTach,
+AttributeError: 'QCar' object has no attribute 'motorTach'
+2025-12-15 16:59:55 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 5.1s)
+2025-12-15 16:59:55 - [Car Car_0] - INFO - _initialize_all_components:131 - Starting component initialization...
+2025-12-15 16:59:55 - [Car Car_0] - INFO - _initialize_path_planning:223 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 16:59:55 - [Car Car_0] - INFO - _initialize_path_planning:234 - Generated path with 1078 waypoints
+2025-12-15 16:59:55 - [Car Car_0] - INFO - _initialize_all_components:138 -   [1/4] Path planning ready
+2025-12-15 16:59:56 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: QCarGPS.__init__() got an unexpected keyword argument 'initialPose'
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 307, in _initialize_qcar
+    self._initialize_physical_qcar()
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 361, in _initialize_physical_qcar
+    self.vehicle_logic.gps = QCarGPS(
+TypeError: QCarGPS.__init__() got an unexpected keyword argument 'initialPose'
+2025-12-15 16:59:56 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 16:59:56 - [Car Car_0] - ERROR - log_error:547 - Sensor data update error: 'QCar' object has no attribute 'motorTach'
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/Observer/VehicleObserverSimple.py", line 259, in update_sensor_data
+    'motor_tach': qcar.motorTach,
+AttributeError: 'QCar' object has no attribute 'motorTach'
+2025-12-15 16:59:56 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 5.6s)
+2025-12-15 16:59:56 - [Car Car_0] - INFO - _initialize_all_components:131 - Starting component initialization...
+2025-12-15 16:59:56 - [Car Car_0] - INFO - _initialize_path_planning:223 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 16:59:56 - [Car Car_0] - INFO - _initialize_path_planning:234 - Generated path with 1078 waypoints
+2025-12-15 16:59:56 - [Car Car_0] - INFO - _initialize_all_components:138 -   [1/4] Path planning ready
+2025-12-15 16:59:56 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: QCarGPS.__init__() got an unexpected keyword argument 'initialPose'
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 307, in _initialize_qcar
+    self._initialize_physical_qcar()
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 361, in _initialize_physical_qcar
+    self.vehicle_logic.gps = QCarGPS(
+TypeError: QCarGPS.__init__() got an unexpected keyword argument 'initialPose'
+2025-12-15 16:59:56 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 16:59:56 - [Car Car_0] - ERROR - log_error:547 - Sensor data update error: 'QCar' object has no attribute 'motorTach'
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/Observer/VehicleObserverSimple.py", line 259, in update_sensor_data
+    'motor_tach': qcar.motorTach,
+AttributeError: 'QCar' object has no attribute 'motorTach'
+2025-12-15 16:59:56 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 6.1s)
+2025-12-15 16:59:56 - [Car Car_0] - INFO - _initialize_all_components:131 - Starting component initialization...
+2025-12-15 16:59:56 - [Car Car_0] - INFO - _initialize_path_planning:223 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 16:59:56 - [Car Car_0] - INFO - _initialize_path_planning:234 - Generated path with 1078 waypoints
+2025-12-15 16:59:56 - [Car Car_0] - INFO - _initialize_all_components:138 -   [1/4] Path planning ready

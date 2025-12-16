@@ -1,0 +1,495 @@
+2025-12-15 16:42:49 - [Car Car_0] - INFO - __init__:48 - ============================================================
+2025-12-15 16:42:49 - [Car Car_0] - INFO - __init__:49 - Vehicle Controller Initialized - Car ID: 0
+2025-12-15 16:42:49 - [Car Car_0] - INFO - __init__:50 - ============================================================
+2025-12-15 16:42:49 - [Car Car_0] - INFO - __init__:110 - V2VManager initialized for vehicle 0
+2025-12-15 16:42:49 - [Car Car_0] - INFO - __init__:87 - Creating Ground Station client...
+2025-12-15 16:42:49 - [Car Car_0] - INFO - _initialize_network_2_GroundStation:595 - Creating Ground Station client...
+2025-12-15 16:42:49 - [Car Car_0] - INFO - initialize_network:75 - Connecting to Ground Station at 192.168.137.1:5000
+2025-12-15 16:42:49 - [Car Car_0] - INFO - initialize_network:84 - Connection attempt 1 to Ground Station...
+2025-12-15 16:42:49 - [Car Car_0] - INFO - initialize_network:88 - Connected to Ground Station successfully in 0.00s
+2025-12-15 16:42:49 - [Car Car_0] - INFO - _communication_loop:154 - Ground Station communication loop started
+2025-12-15 16:42:49 - [Car Car_0] - INFO - start_threads:145 - Ground Station communication thread started
+2025-12-15 16:42:49 - [Car Car_0] - INFO - _initialize_network_2_GroundStation:612 - Ground Station communication established
+2025-12-15 16:42:49 - [Car Car_0] - INFO - __init__:95 - Initializing QCar hardware...
+2025-12-15 16:42:49 - [Car Car_0] - INFO - __init__:86 - Loaded controller config: Long=cacc, Lat=pure_pursuit
+2025-12-15 16:42:49 - [Car Car_0] - INFO - enter:50 - Entering INITIALIZING state
+2025-12-15 16:42:49 - [Car Car_0] - INFO - __init__:57 -  State machine initialized in INITIALIZING state
+2025-12-15 16:42:49 - [Car Car_0] - INFO - __init__:111 - VehicleObserver initialized: vehicle_id=0, 
+2025-12-15 16:42:49 - [Car Car_0] - INFO - register_state_listeners:173 - [+] Event system connected to state machine
+2025-12-15 16:42:49 - [Car Car_0] - INFO - initialize_event_system:71 - [E] Event system initialized
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.1s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.1s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.1s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.1s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.2s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.2s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.2s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.2s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.2s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.2s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.2s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.2s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.2s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.2s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.3s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.3s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.3s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.3s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.3s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.3s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.3s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.3s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.3s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.3s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.4s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.4s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.4s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.4s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.4s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.4s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.4s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.4s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.4s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.4s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.5s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.5s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.5s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.5s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.5s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.5s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.5s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.5s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.5s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.5s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.6s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.6s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.6s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.6s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.6s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.6s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.6s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.6s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.6s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.6s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.7s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.7s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.7s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.7s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.7s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.7s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.7s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.7s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.7s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.7s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.8s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.8s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.8s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.8s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.8s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.8s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.8s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.8s)
+2025-12-15 16:42:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.8s)
+2025-12-15 16:42:50 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.8s)
+2025-12-15 16:42:50 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.9s)
+2025-12-15 16:42:50 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.9s)
+2025-12-15 16:42:50 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.9s)
+2025-12-15 16:42:50 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.9s)
+2025-12-15 16:42:50 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.9s)
+2025-12-15 16:42:50 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.9s)
+2025-12-15 16:42:50 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.9s)
+2025-12-15 16:42:50 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.9s)
+2025-12-15 16:42:50 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.9s)
+2025-12-15 16:42:50 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.9s)
+2025-12-15 16:42:50 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 1.0s)
+2025-12-15 16:42:50 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 1.0s)
+2025-12-15 16:42:50 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 1.0s)
+2025-12-15 16:42:50 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 1.0s)
+2025-12-15 16:42:50 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 1.0s)
+2025-12-15 16:42:50 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 1.0s)
+2025-12-15 16:42:50 - [Car Car_0] - INFO - _initialize_all_components:130 - Starting component initialization...
+2025-12-15 16:42:50 - [Car Car_0] - INFO - _initialize_path_planning:222 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 16:42:50 - [Car Car_0] - INFO - _initialize_path_planning:233 - Generated path with 1078 waypoints
+2025-12-15 16:42:50 - [Car Car_0] - INFO - _initialize_all_components:137 -   [1/4] Path planning ready
+2025-12-15 16:42:50 - [Car Car_0] - INFO - _initialize_qcar:303 - QCar Simulation mode detected
+2025-12-15 16:42:50 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: name 'readRobots' is not defined
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 304, in _initialize_qcar
+    self._initialize_simulated_qcar(readRobots)
+NameError: name 'readRobots' is not defined
+2025-12-15 16:42:50 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 16:42:50 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 1.2s)
+2025-12-15 16:42:50 - [Car Car_0] - INFO - _initialize_all_components:130 - Starting component initialization...
+2025-12-15 16:42:50 - [Car Car_0] - INFO - _initialize_path_planning:222 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 16:42:50 - [Car Car_0] - INFO - _initialize_path_planning:233 - Generated path with 1078 waypoints
+2025-12-15 16:42:50 - [Car Car_0] - INFO - _initialize_all_components:137 -   [1/4] Path planning ready
+2025-12-15 16:42:50 - [Car Car_0] - INFO - _initialize_qcar:303 - QCar Simulation mode detected
+2025-12-15 16:42:50 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: name 'readRobots' is not defined
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 304, in _initialize_qcar
+    self._initialize_simulated_qcar(readRobots)
+NameError: name 'readRobots' is not defined
+2025-12-15 16:42:50 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 16:42:50 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 1.5s)
+2025-12-15 16:42:50 - [Car Car_0] - INFO - _initialize_all_components:130 - Starting component initialization...
+2025-12-15 16:42:50 - [Car Car_0] - INFO - _initialize_path_planning:222 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 16:42:50 - [Car Car_0] - INFO - _initialize_path_planning:233 - Generated path with 1078 waypoints
+2025-12-15 16:42:50 - [Car Car_0] - INFO - _initialize_all_components:137 -   [1/4] Path planning ready
+2025-12-15 16:42:50 - [Car Car_0] - INFO - _initialize_qcar:303 - QCar Simulation mode detected
+2025-12-15 16:42:50 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: name 'readRobots' is not defined
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 304, in _initialize_qcar
+    self._initialize_simulated_qcar(readRobots)
+NameError: name 'readRobots' is not defined
+2025-12-15 16:42:50 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 16:42:50 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 1.7s)
+2025-12-15 16:42:50 - [Car Car_0] - INFO - _initialize_all_components:130 - Starting component initialization...
+2025-12-15 16:42:50 - [Car Car_0] - INFO - _initialize_path_planning:222 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 16:42:50 - [Car Car_0] - INFO - _initialize_path_planning:233 - Generated path with 1078 waypoints
+2025-12-15 16:42:50 - [Car Car_0] - INFO - _initialize_all_components:137 -   [1/4] Path planning ready
+2025-12-15 16:42:51 - [Car Car_0] - INFO - _initialize_qcar:303 - QCar Simulation mode detected
+2025-12-15 16:42:51 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: name 'readRobots' is not defined
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 304, in _initialize_qcar
+    self._initialize_simulated_qcar(readRobots)
+NameError: name 'readRobots' is not defined
+2025-12-15 16:42:51 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 16:42:51 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 1.9s)
+2025-12-15 16:42:51 - [Car Car_0] - INFO - _initialize_all_components:130 - Starting component initialization...
+2025-12-15 16:42:51 - [Car Car_0] - INFO - _initialize_path_planning:222 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 16:42:51 - [Car Car_0] - INFO - _initialize_path_planning:233 - Generated path with 1078 waypoints
+2025-12-15 16:42:51 - [Car Car_0] - INFO - _initialize_all_components:137 -   [1/4] Path planning ready
+2025-12-15 16:42:51 - [Car Car_0] - INFO - _initialize_qcar:303 - QCar Simulation mode detected
+2025-12-15 16:42:51 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: name 'readRobots' is not defined
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 304, in _initialize_qcar
+    self._initialize_simulated_qcar(readRobots)
+NameError: name 'readRobots' is not defined
+2025-12-15 16:42:51 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 16:42:51 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 2.1s)
+2025-12-15 16:42:51 - [Car Car_0] - INFO - _initialize_all_components:130 - Starting component initialization...
+2025-12-15 16:42:51 - [Car Car_0] - INFO - _initialize_path_planning:222 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 16:42:51 - [Car Car_0] - INFO - _initialize_path_planning:233 - Generated path with 1078 waypoints
+2025-12-15 16:42:51 - [Car Car_0] - INFO - _initialize_all_components:137 -   [1/4] Path planning ready
+2025-12-15 16:42:51 - [Car Car_0] - INFO - _initialize_qcar:303 - QCar Simulation mode detected
+2025-12-15 16:42:51 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: name 'readRobots' is not defined
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 304, in _initialize_qcar
+    self._initialize_simulated_qcar(readRobots)
+NameError: name 'readRobots' is not defined
+2025-12-15 16:42:51 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 16:42:51 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 2.3s)
+2025-12-15 16:42:51 - [Car Car_0] - INFO - _initialize_all_components:130 - Starting component initialization...
+2025-12-15 16:42:51 - [Car Car_0] - INFO - _initialize_path_planning:222 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 16:42:51 - [Car Car_0] - INFO - _initialize_path_planning:233 - Generated path with 1078 waypoints
+2025-12-15 16:42:51 - [Car Car_0] - INFO - _initialize_all_components:137 -   [1/4] Path planning ready
+2025-12-15 16:42:51 - [Car Car_0] - INFO - _initialize_qcar:303 - QCar Simulation mode detected
+2025-12-15 16:42:51 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: name 'readRobots' is not defined
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 304, in _initialize_qcar
+    self._initialize_simulated_qcar(readRobots)
+NameError: name 'readRobots' is not defined
+2025-12-15 16:42:51 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 16:42:51 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 2.5s)
+2025-12-15 16:42:51 - [Car Car_0] - INFO - _initialize_all_components:130 - Starting component initialization...
+2025-12-15 16:42:51 - [Car Car_0] - INFO - _initialize_path_planning:222 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 16:42:51 - [Car Car_0] - INFO - _initialize_path_planning:233 - Generated path with 1078 waypoints
+2025-12-15 16:42:51 - [Car Car_0] - INFO - _initialize_all_components:137 -   [1/4] Path planning ready
+2025-12-15 16:42:51 - [Car Car_0] - INFO - _initialize_qcar:303 - QCar Simulation mode detected
+2025-12-15 16:42:51 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: name 'readRobots' is not defined
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 304, in _initialize_qcar
+    self._initialize_simulated_qcar(readRobots)
+NameError: name 'readRobots' is not defined
+2025-12-15 16:42:51 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 16:42:51 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 2.7s)
+2025-12-15 16:42:51 - [Car Car_0] - INFO - _initialize_all_components:130 - Starting component initialization...
+2025-12-15 16:42:51 - [Car Car_0] - INFO - _initialize_path_planning:222 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 16:42:51 - [Car Car_0] - INFO - _initialize_path_planning:233 - Generated path with 1078 waypoints
+2025-12-15 16:42:51 - [Car Car_0] - INFO - _initialize_all_components:137 -   [1/4] Path planning ready
+2025-12-15 16:42:52 - [Car Car_0] - INFO - _initialize_qcar:303 - QCar Simulation mode detected
+2025-12-15 16:42:52 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: name 'readRobots' is not defined
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 304, in _initialize_qcar
+    self._initialize_simulated_qcar(readRobots)
+NameError: name 'readRobots' is not defined
+2025-12-15 16:42:52 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 16:42:52 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 2.9s)
+2025-12-15 16:42:52 - [Car Car_0] - INFO - _initialize_all_components:130 - Starting component initialization...
+2025-12-15 16:42:52 - [Car Car_0] - INFO - _initialize_path_planning:222 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 16:42:52 - [Car Car_0] - INFO - _initialize_path_planning:233 - Generated path with 1078 waypoints
+2025-12-15 16:42:52 - [Car Car_0] - INFO - _initialize_all_components:137 -   [1/4] Path planning ready
+2025-12-15 16:42:52 - [Car Car_0] - INFO - _initialize_qcar:303 - QCar Simulation mode detected
+2025-12-15 16:42:52 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: name 'readRobots' is not defined
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 304, in _initialize_qcar
+    self._initialize_simulated_qcar(readRobots)
+NameError: name 'readRobots' is not defined
+2025-12-15 16:42:52 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 16:42:52 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 3.2s)
+2025-12-15 16:42:52 - [Car Car_0] - INFO - _initialize_all_components:130 - Starting component initialization...
+2025-12-15 16:42:52 - [Car Car_0] - INFO - _initialize_path_planning:222 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 16:42:52 - [Car Car_0] - INFO - _initialize_path_planning:233 - Generated path with 1078 waypoints
+2025-12-15 16:42:52 - [Car Car_0] - INFO - _initialize_all_components:137 -   [1/4] Path planning ready
+2025-12-15 16:42:52 - [Car Car_0] - INFO - _initialize_qcar:303 - QCar Simulation mode detected
+2025-12-15 16:42:52 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: name 'readRobots' is not defined
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 304, in _initialize_qcar
+    self._initialize_simulated_qcar(readRobots)
+NameError: name 'readRobots' is not defined
+2025-12-15 16:42:52 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 16:42:52 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 3.4s)
+2025-12-15 16:42:52 - [Car Car_0] - INFO - _initialize_all_components:130 - Starting component initialization...
+2025-12-15 16:42:52 - [Car Car_0] - INFO - _initialize_path_planning:222 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 16:42:52 - [Car Car_0] - INFO - _initialize_path_planning:233 - Generated path with 1078 waypoints
+2025-12-15 16:42:52 - [Car Car_0] - INFO - _initialize_all_components:137 -   [1/4] Path planning ready
+2025-12-15 16:42:52 - [Car Car_0] - INFO - _initialize_qcar:303 - QCar Simulation mode detected
+2025-12-15 16:42:52 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: name 'readRobots' is not defined
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 304, in _initialize_qcar
+    self._initialize_simulated_qcar(readRobots)
+NameError: name 'readRobots' is not defined
+2025-12-15 16:42:52 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 16:42:52 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 3.6s)
+2025-12-15 16:42:52 - [Car Car_0] - INFO - _initialize_all_components:130 - Starting component initialization...
+2025-12-15 16:42:52 - [Car Car_0] - INFO - _initialize_path_planning:222 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 16:42:52 - [Car Car_0] - INFO - _initialize_path_planning:233 - Generated path with 1078 waypoints
+2025-12-15 16:42:52 - [Car Car_0] - INFO - _initialize_all_components:137 -   [1/4] Path planning ready
+2025-12-15 16:42:52 - [Car Car_0] - INFO - _initialize_qcar:303 - QCar Simulation mode detected
+2025-12-15 16:42:52 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: name 'readRobots' is not defined
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 304, in _initialize_qcar
+    self._initialize_simulated_qcar(readRobots)
+NameError: name 'readRobots' is not defined
+2025-12-15 16:42:52 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 16:42:52 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 3.8s)
+2025-12-15 16:42:52 - [Car Car_0] - INFO - _initialize_all_components:130 - Starting component initialization...
+2025-12-15 16:42:52 - [Car Car_0] - INFO - _initialize_path_planning:222 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 16:42:52 - [Car Car_0] - INFO - _initialize_path_planning:233 - Generated path with 1078 waypoints
+2025-12-15 16:42:52 - [Car Car_0] - INFO - _initialize_all_components:137 -   [1/4] Path planning ready
+2025-12-15 16:42:53 - [Car Car_0] - INFO - _initialize_qcar:303 - QCar Simulation mode detected
+2025-12-15 16:42:53 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: name 'readRobots' is not defined
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 304, in _initialize_qcar
+    self._initialize_simulated_qcar(readRobots)
+NameError: name 'readRobots' is not defined
+2025-12-15 16:42:53 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 16:42:53 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 4.0s)
+2025-12-15 16:42:53 - [Car Car_0] - INFO - _initialize_all_components:130 - Starting component initialization...
+2025-12-15 16:42:53 - [Car Car_0] - INFO - _initialize_path_planning:222 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 16:42:53 - [Car Car_0] - INFO - _initialize_path_planning:233 - Generated path with 1078 waypoints
+2025-12-15 16:42:53 - [Car Car_0] - INFO - _initialize_all_components:137 -   [1/4] Path planning ready
+2025-12-15 16:42:53 - [Car Car_0] - INFO - _initialize_qcar:303 - QCar Simulation mode detected
+2025-12-15 16:42:53 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: name 'readRobots' is not defined
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 304, in _initialize_qcar
+    self._initialize_simulated_qcar(readRobots)
+NameError: name 'readRobots' is not defined
+2025-12-15 16:42:53 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 16:42:53 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 4.2s)
+2025-12-15 16:42:53 - [Car Car_0] - INFO - _initialize_all_components:130 - Starting component initialization...
+2025-12-15 16:42:53 - [Car Car_0] - INFO - _initialize_path_planning:222 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 16:42:53 - [Car Car_0] - INFO - _initialize_path_planning:233 - Generated path with 1078 waypoints
+2025-12-15 16:42:53 - [Car Car_0] - INFO - _initialize_all_components:137 -   [1/4] Path planning ready
+2025-12-15 16:42:53 - [Car Car_0] - INFO - _initialize_qcar:303 - QCar Simulation mode detected
+2025-12-15 16:42:53 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: name 'readRobots' is not defined
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 304, in _initialize_qcar
+    self._initialize_simulated_qcar(readRobots)
+NameError: name 'readRobots' is not defined
+2025-12-15 16:42:53 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 16:42:53 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 4.4s)
+2025-12-15 16:42:53 - [Car Car_0] - INFO - _initialize_all_components:130 - Starting component initialization...
+2025-12-15 16:42:53 - [Car Car_0] - INFO - _initialize_path_planning:222 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 16:42:53 - [Car Car_0] - INFO - _initialize_path_planning:233 - Generated path with 1078 waypoints
+2025-12-15 16:42:53 - [Car Car_0] - INFO - _initialize_all_components:137 -   [1/4] Path planning ready
+2025-12-15 16:42:53 - [Car Car_0] - INFO - _initialize_qcar:303 - QCar Simulation mode detected
+2025-12-15 16:42:53 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: name 'readRobots' is not defined
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 304, in _initialize_qcar
+    self._initialize_simulated_qcar(readRobots)
+NameError: name 'readRobots' is not defined
+2025-12-15 16:42:53 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 16:42:53 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 4.6s)
+2025-12-15 16:42:53 - [Car Car_0] - INFO - _initialize_all_components:130 - Starting component initialization...
+2025-12-15 16:42:53 - [Car Car_0] - INFO - _initialize_path_planning:222 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 16:42:53 - [Car Car_0] - INFO - _initialize_path_planning:233 - Generated path with 1078 waypoints
+2025-12-15 16:42:53 - [Car Car_0] - INFO - _initialize_all_components:137 -   [1/4] Path planning ready
+2025-12-15 16:42:54 - [Car Car_0] - INFO - _initialize_qcar:303 - QCar Simulation mode detected
+2025-12-15 16:42:54 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: name 'readRobots' is not defined
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 304, in _initialize_qcar
+    self._initialize_simulated_qcar(readRobots)
+NameError: name 'readRobots' is not defined
+2025-12-15 16:42:54 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 16:42:54 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 4.9s)
+2025-12-15 16:42:54 - [Car Car_0] - INFO - _initialize_all_components:130 - Starting component initialization...
+2025-12-15 16:42:54 - [Car Car_0] - INFO - _initialize_path_planning:222 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 16:42:54 - [Car Car_0] - INFO - _initialize_path_planning:233 - Generated path with 1078 waypoints
+2025-12-15 16:42:54 - [Car Car_0] - INFO - _initialize_all_components:137 -   [1/4] Path planning ready
+2025-12-15 16:42:54 - [Car Car_0] - INFO - _initialize_qcar:303 - QCar Simulation mode detected
+2025-12-15 16:42:54 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: name 'readRobots' is not defined
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 304, in _initialize_qcar
+    self._initialize_simulated_qcar(readRobots)
+NameError: name 'readRobots' is not defined
+2025-12-15 16:42:54 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 16:42:54 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 5.1s)
+2025-12-15 16:42:54 - [Car Car_0] - INFO - _initialize_all_components:130 - Starting component initialization...
+2025-12-15 16:42:54 - [Car Car_0] - INFO - _initialize_path_planning:222 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 16:42:54 - [Car Car_0] - INFO - _initialize_path_planning:233 - Generated path with 1078 waypoints
+2025-12-15 16:42:54 - [Car Car_0] - INFO - _initialize_all_components:137 -   [1/4] Path planning ready
+2025-12-15 16:42:54 - [Car Car_0] - INFO - _initialize_qcar:303 - QCar Simulation mode detected
+2025-12-15 16:42:54 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: name 'readRobots' is not defined
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 304, in _initialize_qcar
+    self._initialize_simulated_qcar(readRobots)
+NameError: name 'readRobots' is not defined
+2025-12-15 16:42:54 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 16:42:54 - [Car Car_0] - INFO - _log_initialization_progress:106 - [INIT] Component initialization in progress... (5.1s elapsed)
+2025-12-15 16:42:54 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 5.3s)
+2025-12-15 16:42:54 - [Car Car_0] - INFO - _initialize_all_components:130 - Starting component initialization...
+2025-12-15 16:42:54 - [Car Car_0] - INFO - _initialize_path_planning:222 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 16:42:54 - [Car Car_0] - INFO - _initialize_path_planning:233 - Generated path with 1078 waypoints
+2025-12-15 16:42:54 - [Car Car_0] - INFO - _initialize_all_components:137 -   [1/4] Path planning ready
+2025-12-15 16:42:54 - [Car Car_0] - INFO - _initialize_qcar:303 - QCar Simulation mode detected
+2025-12-15 16:42:54 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: name 'readRobots' is not defined
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 304, in _initialize_qcar
+    self._initialize_simulated_qcar(readRobots)
+NameError: name 'readRobots' is not defined
+2025-12-15 16:42:54 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 16:42:54 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 5.5s)
+2025-12-15 16:42:54 - [Car Car_0] - INFO - _initialize_all_components:130 - Starting component initialization...
+2025-12-15 16:42:54 - [Car Car_0] - INFO - _initialize_path_planning:222 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 16:42:54 - [Car Car_0] - INFO - _initialize_path_planning:233 - Generated path with 1078 waypoints
+2025-12-15 16:42:54 - [Car Car_0] - INFO - _initialize_all_components:137 -   [1/4] Path planning ready
+2025-12-15 16:42:54 - [Car Car_0] - INFO - _initialize_qcar:303 - QCar Simulation mode detected
+2025-12-15 16:42:54 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: name 'readRobots' is not defined
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 304, in _initialize_qcar
+    self._initialize_simulated_qcar(readRobots)
+NameError: name 'readRobots' is not defined
+2025-12-15 16:42:54 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 16:42:54 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 5.7s)
+2025-12-15 16:42:54 - [Car Car_0] - INFO - _initialize_all_components:130 - Starting component initialization...
+2025-12-15 16:42:54 - [Car Car_0] - INFO - _initialize_path_planning:222 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 16:42:54 - [Car Car_0] - INFO - _initialize_path_planning:233 - Generated path with 1078 waypoints
+2025-12-15 16:42:54 - [Car Car_0] - INFO - _initialize_all_components:137 -   [1/4] Path planning ready
+2025-12-15 16:42:55 - [Car Car_0] - INFO - _initialize_qcar:303 - QCar Simulation mode detected
+2025-12-15 16:42:55 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: name 'readRobots' is not defined
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 304, in _initialize_qcar
+    self._initialize_simulated_qcar(readRobots)
+NameError: name 'readRobots' is not defined
+2025-12-15 16:42:55 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 16:42:55 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 5.9s)
+2025-12-15 16:42:55 - [Car Car_0] - INFO - _initialize_all_components:130 - Starting component initialization...
+2025-12-15 16:42:55 - [Car Car_0] - INFO - _initialize_path_planning:222 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 16:42:55 - [Car Car_0] - INFO - _initialize_path_planning:233 - Generated path with 1078 waypoints
+2025-12-15 16:42:55 - [Car Car_0] - INFO - _initialize_all_components:137 -   [1/4] Path planning ready
+2025-12-15 16:42:55 - [Car Car_0] - INFO - _initialize_qcar:303 - QCar Simulation mode detected
+2025-12-15 16:42:55 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: name 'readRobots' is not defined
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 304, in _initialize_qcar
+    self._initialize_simulated_qcar(readRobots)
+NameError: name 'readRobots' is not defined
+2025-12-15 16:42:55 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 16:42:55 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 6.1s)
+2025-12-15 16:42:55 - [Car Car_0] - INFO - _initialize_all_components:130 - Starting component initialization...
+2025-12-15 16:42:55 - [Car Car_0] - INFO - _initialize_path_planning:222 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 16:42:55 - [Car Car_0] - INFO - _initialize_path_planning:233 - Generated path with 1078 waypoints
+2025-12-15 16:42:55 - [Car Car_0] - INFO - _initialize_all_components:137 -   [1/4] Path planning ready
+2025-12-15 16:42:55 - [Car Car_0] - INFO - _initialize_qcar:303 - QCar Simulation mode detected
+2025-12-15 16:42:55 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: name 'readRobots' is not defined
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 304, in _initialize_qcar
+    self._initialize_simulated_qcar(readRobots)
+NameError: name 'readRobots' is not defined
+2025-12-15 16:42:55 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 16:42:55 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 6.4s)
+2025-12-15 16:42:55 - [Car Car_0] - INFO - _initialize_all_components:130 - Starting component initialization...
+2025-12-15 16:42:55 - [Car Car_0] - INFO - _initialize_path_planning:222 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 16:42:55 - [Car Car_0] - INFO - _initialize_path_planning:233 - Generated path with 1078 waypoints
+2025-12-15 16:42:55 - [Car Car_0] - INFO - _initialize_all_components:137 -   [1/4] Path planning ready
+2025-12-15 16:42:55 - [Car Car_0] - INFO - _initialize_qcar:303 - QCar Simulation mode detected
+2025-12-15 16:42:55 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: name 'readRobots' is not defined
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 304, in _initialize_qcar
+    self._initialize_simulated_qcar(readRobots)
+NameError: name 'readRobots' is not defined
+2025-12-15 16:42:55 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 16:42:55 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 6.6s)
+2025-12-15 16:42:55 - [Car Car_0] - INFO - _initialize_all_components:130 - Starting component initialization...
+2025-12-15 16:42:55 - [Car Car_0] - INFO - _initialize_path_planning:222 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 16:42:55 - [Car Car_0] - INFO - _initialize_path_planning:233 - Generated path with 1078 waypoints
+2025-12-15 16:42:55 - [Car Car_0] - INFO - _initialize_all_components:137 -   [1/4] Path planning ready
+2025-12-15 16:42:55 - [Car Car_0] - INFO - _initialize_qcar:303 - QCar Simulation mode detected
+2025-12-15 16:42:55 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: name 'readRobots' is not defined
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 304, in _initialize_qcar
+    self._initialize_simulated_qcar(readRobots)
+NameError: name 'readRobots' is not defined
+2025-12-15 16:42:55 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 16:42:55 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 6.8s)
+2025-12-15 16:42:55 - [Car Car_0] - INFO - _initialize_all_components:130 - Starting component initialization...
+2025-12-15 16:42:55 - [Car Car_0] - INFO - _initialize_path_planning:222 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 16:42:55 - [Car Car_0] - INFO - _initialize_path_planning:233 - Generated path with 1078 waypoints
+2025-12-15 16:42:55 - [Car Car_0] - INFO - _initialize_all_components:137 -   [1/4] Path planning ready
+2025-12-15 16:42:56 - [Car Car_0] - INFO - _initialize_qcar:303 - QCar Simulation mode detected
+2025-12-15 16:42:56 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: name 'readRobots' is not defined
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 304, in _initialize_qcar
+    self._initialize_simulated_qcar(readRobots)
+NameError: name 'readRobots' is not defined
+2025-12-15 16:42:56 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 16:42:56 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 7.0s)
+2025-12-15 16:42:56 - [Car Car_0] - INFO - _initialize_all_components:130 - Starting component initialization...
+2025-12-15 16:42:56 - [Car Car_0] - INFO - _initialize_path_planning:222 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 16:42:56 - [Car Car_0] - INFO - _initialize_path_planning:233 - Generated path with 1078 waypoints
+2025-12-15 16:42:56 - [Car Car_0] - INFO - _initialize_all_components:137 -   [1/4] Path planning ready
+2025-12-15 16:42:56 - [Car Car_0] - INFO - _initialize_qcar:303 - QCar Simulation mode detected
+2025-12-15 16:42:56 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: name 'readRobots' is not defined
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 304, in _initialize_qcar
+    self._initialize_simulated_qcar(readRobots)
+NameError: name 'readRobots' is not defined
+2025-12-15 16:42:56 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 16:42:56 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 7.2s)
+2025-12-15 16:42:56 - [Car Car_0] - INFO - _initialize_all_components:130 - Starting component initialization...
+2025-12-15 16:42:56 - [Car Car_0] - INFO - _initialize_path_planning:222 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 16:42:56 - [Car Car_0] - INFO - _initialize_path_planning:233 - Generated path with 1078 waypoints
+2025-12-15 16:42:56 - [Car Car_0] - INFO - _initialize_all_components:137 -   [1/4] Path planning ready
+2025-12-15 16:42:56 - [Car Car_0] - INFO - _initialize_qcar:303 - QCar Simulation mode detected
+2025-12-15 16:42:56 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: name 'readRobots' is not defined
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 304, in _initialize_qcar
+    self._initialize_simulated_qcar(readRobots)
+NameError: name 'readRobots' is not defined
+2025-12-15 16:42:56 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 16:42:56 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 7.4s)
+2025-12-15 16:42:56 - [Car Car_0] - INFO - _initialize_all_components:130 - Starting component initialization...
+2025-12-15 16:42:56 - [Car Car_0] - INFO - _initialize_path_planning:222 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 16:42:56 - [Car Car_0] - INFO - _initialize_path_planning:233 - Generated path with 1078 waypoints
+2025-12-15 16:42:56 - [Car Car_0] - INFO - _initialize_all_components:137 -   [1/4] Path planning ready
+2025-12-15 16:42:56 - [Car Car_0] - INFO - _initialize_qcar:303 - QCar Simulation mode detected
+2025-12-15 16:42:56 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: name 'readRobots' is not defined
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 304, in _initialize_qcar
+    self._initialize_simulated_qcar(readRobots)
+NameError: name 'readRobots' is not defined
+2025-12-15 16:42:56 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 16:42:56 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 7.6s)
+2025-12-15 16:42:56 - [Car Car_0] - INFO - _initialize_all_components:130 - Starting component initialization...
+2025-12-15 16:42:56 - [Car Car_0] - INFO - _initialize_path_planning:222 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 16:42:56 - [Car Car_0] - INFO - _initialize_path_planning:233 - Generated path with 1078 waypoints
+2025-12-15 16:42:56 - [Car Car_0] - INFO - _initialize_all_components:137 -   [1/4] Path planning ready
+2025-12-15 16:42:57 - [Car Car_0] - INFO - _initialize_qcar:303 - QCar Simulation mode detected
+2025-12-15 16:42:57 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: name 'readRobots' is not defined
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 304, in _initialize_qcar
+    self._initialize_simulated_qcar(readRobots)
+NameError: name 'readRobots' is not defined
+2025-12-15 16:42:57 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 16:42:57 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 7.8s)
+2025-12-15 16:42:57 - [Car Car_0] - INFO - _initialize_all_components:130 - Starting component initialization...

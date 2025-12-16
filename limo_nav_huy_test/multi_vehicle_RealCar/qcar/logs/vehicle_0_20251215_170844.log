@@ -1,0 +1,436 @@
+2025-12-15 17:08:44 - [Car Car_0] - INFO - __init__:48 - ============================================================
+2025-12-15 17:08:44 - [Car Car_0] - INFO - __init__:49 - Vehicle Controller Initialized - Car ID: 0
+2025-12-15 17:08:44 - [Car Car_0] - INFO - __init__:50 - ============================================================
+2025-12-15 17:08:44 - [Car Car_0] - INFO - __init__:110 - V2VManager initialized for vehicle 0
+2025-12-15 17:08:44 - [Car Car_0] - INFO - __init__:87 - Creating Ground Station client...
+2025-12-15 17:08:44 - [Car Car_0] - INFO - _initialize_network_2_GroundStation:595 - Creating Ground Station client...
+2025-12-15 17:08:44 - [Car Car_0] - INFO - initialize_network:75 - Connecting to Ground Station at 192.168.137.1:5000
+2025-12-15 17:08:44 - [Car Car_0] - INFO - initialize_network:84 - Connection attempt 1 to Ground Station...
+2025-12-15 17:08:44 - [Car Car_0] - INFO - initialize_network:88 - Connected to Ground Station successfully in 0.01s
+2025-12-15 17:08:44 - [Car Car_0] - INFO - _communication_loop:154 - Ground Station communication loop started
+2025-12-15 17:08:44 - [Car Car_0] - INFO - start_threads:145 - Ground Station communication thread started
+2025-12-15 17:08:44 - [Car Car_0] - INFO - _initialize_network_2_GroundStation:612 - Ground Station communication established
+2025-12-15 17:08:44 - [Car Car_0] - INFO - __init__:95 - Initializing QCar hardware...
+2025-12-15 17:08:44 - [Car Car_0] - INFO - __init__:86 - Loaded controller config: Long=cacc, Lat=pure_pursuit
+2025-12-15 17:08:44 - [Car Car_0] - INFO - enter:51 - Entering INITIALIZING state
+2025-12-15 17:08:44 - [Car Car_0] - INFO - __init__:57 -  State machine initialized in INITIALIZING state
+2025-12-15 17:08:44 - [Car Car_0] - INFO - __init__:111 - VehicleObserver initialized: vehicle_id=0, 
+2025-12-15 17:08:44 - [Car Car_0] - INFO - register_state_listeners:173 - [+] Event system connected to state machine
+2025-12-15 17:08:44 - [Car Car_0] - INFO - initialize_event_system:71 - [E] Event system initialized
+2025-12-15 17:08:44 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.4s)
+2025-12-15 17:08:44 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.4s)
+2025-12-15 17:08:44 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.4s)
+2025-12-15 17:08:44 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.4s)
+2025-12-15 17:08:44 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.5s)
+2025-12-15 17:08:44 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.5s)
+2025-12-15 17:08:44 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.5s)
+2025-12-15 17:08:44 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.5s)
+2025-12-15 17:08:44 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.5s)
+2025-12-15 17:08:44 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.5s)
+2025-12-15 17:08:44 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.5s)
+2025-12-15 17:08:44 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.5s)
+2025-12-15 17:08:44 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.5s)
+2025-12-15 17:08:44 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.5s)
+2025-12-15 17:08:44 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.6s)
+2025-12-15 17:08:44 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.6s)
+2025-12-15 17:08:44 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.6s)
+2025-12-15 17:08:44 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.6s)
+2025-12-15 17:08:44 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.6s)
+2025-12-15 17:08:44 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.6s)
+2025-12-15 17:08:45 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.6s)
+2025-12-15 17:08:45 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.6s)
+2025-12-15 17:08:45 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.6s)
+2025-12-15 17:08:45 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.6s)
+2025-12-15 17:08:45 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.7s)
+2025-12-15 17:08:45 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.7s)
+2025-12-15 17:08:45 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.7s)
+2025-12-15 17:08:45 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.7s)
+2025-12-15 17:08:45 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.7s)
+2025-12-15 17:08:45 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.7s)
+2025-12-15 17:08:45 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.7s)
+2025-12-15 17:08:45 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.7s)
+2025-12-15 17:08:45 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.7s)
+2025-12-15 17:08:45 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.7s)
+2025-12-15 17:08:45 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.8s)
+2025-12-15 17:08:45 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.8s)
+2025-12-15 17:08:45 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.8s)
+2025-12-15 17:08:45 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.8s)
+2025-12-15 17:08:45 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.8s)
+2025-12-15 17:08:45 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.8s)
+2025-12-15 17:08:45 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.8s)
+2025-12-15 17:08:45 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.8s)
+2025-12-15 17:08:45 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.8s)
+2025-12-15 17:08:45 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.8s)
+2025-12-15 17:08:45 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.9s)
+2025-12-15 17:08:45 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.9s)
+2025-12-15 17:08:45 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.9s)
+2025-12-15 17:08:45 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.9s)
+2025-12-15 17:08:45 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.9s)
+2025-12-15 17:08:45 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.9s)
+2025-12-15 17:08:45 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.9s)
+2025-12-15 17:08:45 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.9s)
+2025-12-15 17:08:45 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.9s)
+2025-12-15 17:08:45 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 0.9s)
+2025-12-15 17:08:45 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 1.0s)
+2025-12-15 17:08:45 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 1.0s)
+2025-12-15 17:08:45 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 1.0s)
+2025-12-15 17:08:45 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 1.0s)
+2025-12-15 17:08:45 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 1.0s)
+2025-12-15 17:08:45 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 1.0s)
+2025-12-15 17:08:45 - [Car Car_0] - INFO - _initialize_all_components:131 - Starting component initialization...
+2025-12-15 17:08:45 - [Car Car_0] - INFO - _initialize_path_planning:223 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 17:08:45 - [Car Car_0] - INFO - _initialize_path_planning:234 - Generated path with 1078 waypoints
+2025-12-15 17:08:45 - [Car Car_0] - INFO - _initialize_all_components:138 -   [1/4] Path planning ready
+2025-12-15 17:08:45 - [Car Car_0] - INFO - _initialize_qcar:304 - LIMO Car mode detected
+2025-12-15 17:08:45 - [Car Car_0] - INFO - _initialize_physical_qcar:359 - [LIMO/ROS] Skipping QCar and QCarGPS instantiation (handled by ROS adapters)
+2025-12-15 17:08:45 - [Car Car_0] - INFO - _wait_for_gps:379 - Waiting for initial GPS reading...
+2025-12-15 17:08:45 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: 'ROSGPSAdapter' object has no attribute 'readGPS'
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 312, in _initialize_qcar
+    if not self._wait_for_gps():
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 383, in _wait_for_gps
+    if self.vehicle_logic.gps.readGPS():
+AttributeError: 'ROSGPSAdapter' object has no attribute 'readGPS'
+2025-12-15 17:08:45 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 17:08:45 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 1.2s)
+2025-12-15 17:08:45 - [Car Car_0] - INFO - _initialize_all_components:131 - Starting component initialization...
+2025-12-15 17:08:45 - [Car Car_0] - INFO - _initialize_path_planning:223 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 17:08:45 - [Car Car_0] - INFO - _initialize_path_planning:234 - Generated path with 1078 waypoints
+2025-12-15 17:08:45 - [Car Car_0] - INFO - _initialize_all_components:138 -   [1/4] Path planning ready
+2025-12-15 17:08:45 - [Car Car_0] - INFO - _initialize_qcar:304 - LIMO Car mode detected
+2025-12-15 17:08:45 - [Car Car_0] - INFO - _initialize_physical_qcar:359 - [LIMO/ROS] Skipping QCar and QCarGPS instantiation (handled by ROS adapters)
+2025-12-15 17:08:45 - [Car Car_0] - INFO - _wait_for_gps:379 - Waiting for initial GPS reading...
+2025-12-15 17:08:45 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: 'ROSGPSAdapter' object has no attribute 'readGPS'
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 312, in _initialize_qcar
+    if not self._wait_for_gps():
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 383, in _wait_for_gps
+    if self.vehicle_logic.gps.readGPS():
+AttributeError: 'ROSGPSAdapter' object has no attribute 'readGPS'
+2025-12-15 17:08:45 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 17:08:45 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 1.4s)
+2025-12-15 17:08:45 - [Car Car_0] - INFO - _initialize_all_components:131 - Starting component initialization...
+2025-12-15 17:08:45 - [Car Car_0] - INFO - _initialize_path_planning:223 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 17:08:45 - [Car Car_0] - INFO - _initialize_path_planning:234 - Generated path with 1078 waypoints
+2025-12-15 17:08:45 - [Car Car_0] - INFO - _initialize_all_components:138 -   [1/4] Path planning ready
+2025-12-15 17:08:46 - [Car Car_0] - INFO - _initialize_qcar:304 - LIMO Car mode detected
+2025-12-15 17:08:46 - [Car Car_0] - INFO - _initialize_physical_qcar:359 - [LIMO/ROS] Skipping QCar and QCarGPS instantiation (handled by ROS adapters)
+2025-12-15 17:08:46 - [Car Car_0] - INFO - _wait_for_gps:379 - Waiting for initial GPS reading...
+2025-12-15 17:08:46 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: 'ROSGPSAdapter' object has no attribute 'readGPS'
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 312, in _initialize_qcar
+    if not self._wait_for_gps():
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 383, in _wait_for_gps
+    if self.vehicle_logic.gps.readGPS():
+AttributeError: 'ROSGPSAdapter' object has no attribute 'readGPS'
+2025-12-15 17:08:46 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 17:08:46 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 1.6s)
+2025-12-15 17:08:46 - [Car Car_0] - INFO - _initialize_all_components:131 - Starting component initialization...
+2025-12-15 17:08:46 - [Car Car_0] - INFO - _initialize_path_planning:223 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 17:08:46 - [Car Car_0] - INFO - _initialize_path_planning:234 - Generated path with 1078 waypoints
+2025-12-15 17:08:46 - [Car Car_0] - INFO - _initialize_all_components:138 -   [1/4] Path planning ready
+2025-12-15 17:08:46 - [Car Car_0] - INFO - _initialize_qcar:304 - LIMO Car mode detected
+2025-12-15 17:08:46 - [Car Car_0] - INFO - _initialize_physical_qcar:359 - [LIMO/ROS] Skipping QCar and QCarGPS instantiation (handled by ROS adapters)
+2025-12-15 17:08:46 - [Car Car_0] - INFO - _wait_for_gps:379 - Waiting for initial GPS reading...
+2025-12-15 17:08:46 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: 'ROSGPSAdapter' object has no attribute 'readGPS'
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 312, in _initialize_qcar
+    if not self._wait_for_gps():
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 383, in _wait_for_gps
+    if self.vehicle_logic.gps.readGPS():
+AttributeError: 'ROSGPSAdapter' object has no attribute 'readGPS'
+2025-12-15 17:08:46 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 17:08:46 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 1.9s)
+2025-12-15 17:08:46 - [Car Car_0] - INFO - _initialize_all_components:131 - Starting component initialization...
+2025-12-15 17:08:46 - [Car Car_0] - INFO - _initialize_path_planning:223 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 17:08:46 - [Car Car_0] - INFO - _initialize_path_planning:234 - Generated path with 1078 waypoints
+2025-12-15 17:08:46 - [Car Car_0] - INFO - _initialize_all_components:138 -   [1/4] Path planning ready
+2025-12-15 17:08:46 - [Car Car_0] - INFO - _initialize_qcar:304 - LIMO Car mode detected
+2025-12-15 17:08:46 - [Car Car_0] - INFO - _initialize_physical_qcar:359 - [LIMO/ROS] Skipping QCar and QCarGPS instantiation (handled by ROS adapters)
+2025-12-15 17:08:46 - [Car Car_0] - INFO - _wait_for_gps:379 - Waiting for initial GPS reading...
+2025-12-15 17:08:46 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: 'ROSGPSAdapter' object has no attribute 'readGPS'
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 312, in _initialize_qcar
+    if not self._wait_for_gps():
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 383, in _wait_for_gps
+    if self.vehicle_logic.gps.readGPS():
+AttributeError: 'ROSGPSAdapter' object has no attribute 'readGPS'
+2025-12-15 17:08:46 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 17:08:46 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 2.1s)
+2025-12-15 17:08:46 - [Car Car_0] - INFO - _initialize_all_components:131 - Starting component initialization...
+2025-12-15 17:08:46 - [Car Car_0] - INFO - _initialize_path_planning:223 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 17:08:46 - [Car Car_0] - INFO - _initialize_path_planning:234 - Generated path with 1078 waypoints
+2025-12-15 17:08:46 - [Car Car_0] - INFO - _initialize_all_components:138 -   [1/4] Path planning ready
+2025-12-15 17:08:46 - [Car Car_0] - INFO - _initialize_qcar:304 - LIMO Car mode detected
+2025-12-15 17:08:46 - [Car Car_0] - INFO - _initialize_physical_qcar:359 - [LIMO/ROS] Skipping QCar and QCarGPS instantiation (handled by ROS adapters)
+2025-12-15 17:08:46 - [Car Car_0] - INFO - _wait_for_gps:379 - Waiting for initial GPS reading...
+2025-12-15 17:08:46 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: 'ROSGPSAdapter' object has no attribute 'readGPS'
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 312, in _initialize_qcar
+    if not self._wait_for_gps():
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 383, in _wait_for_gps
+    if self.vehicle_logic.gps.readGPS():
+AttributeError: 'ROSGPSAdapter' object has no attribute 'readGPS'
+2025-12-15 17:08:46 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 17:08:46 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 2.3s)
+2025-12-15 17:08:46 - [Car Car_0] - INFO - _initialize_all_components:131 - Starting component initialization...
+2025-12-15 17:08:46 - [Car Car_0] - INFO - _initialize_path_planning:223 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 17:08:46 - [Car Car_0] - INFO - _initialize_path_planning:234 - Generated path with 1078 waypoints
+2025-12-15 17:08:46 - [Car Car_0] - INFO - _initialize_all_components:138 -   [1/4] Path planning ready
+2025-12-15 17:08:46 - [Car Car_0] - INFO - _initialize_qcar:304 - LIMO Car mode detected
+2025-12-15 17:08:46 - [Car Car_0] - INFO - _initialize_physical_qcar:359 - [LIMO/ROS] Skipping QCar and QCarGPS instantiation (handled by ROS adapters)
+2025-12-15 17:08:46 - [Car Car_0] - INFO - _wait_for_gps:379 - Waiting for initial GPS reading...
+2025-12-15 17:08:46 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: 'ROSGPSAdapter' object has no attribute 'readGPS'
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 312, in _initialize_qcar
+    if not self._wait_for_gps():
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 383, in _wait_for_gps
+    if self.vehicle_logic.gps.readGPS():
+AttributeError: 'ROSGPSAdapter' object has no attribute 'readGPS'
+2025-12-15 17:08:46 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 17:08:46 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 2.5s)
+2025-12-15 17:08:46 - [Car Car_0] - INFO - _initialize_all_components:131 - Starting component initialization...
+2025-12-15 17:08:46 - [Car Car_0] - INFO - _initialize_path_planning:223 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 17:08:46 - [Car Car_0] - INFO - _initialize_path_planning:234 - Generated path with 1078 waypoints
+2025-12-15 17:08:46 - [Car Car_0] - INFO - _initialize_all_components:138 -   [1/4] Path planning ready
+2025-12-15 17:08:47 - [Car Car_0] - INFO - _initialize_qcar:304 - LIMO Car mode detected
+2025-12-15 17:08:47 - [Car Car_0] - INFO - _initialize_physical_qcar:359 - [LIMO/ROS] Skipping QCar and QCarGPS instantiation (handled by ROS adapters)
+2025-12-15 17:08:47 - [Car Car_0] - INFO - _wait_for_gps:379 - Waiting for initial GPS reading...
+2025-12-15 17:08:47 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: 'ROSGPSAdapter' object has no attribute 'readGPS'
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 312, in _initialize_qcar
+    if not self._wait_for_gps():
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 383, in _wait_for_gps
+    if self.vehicle_logic.gps.readGPS():
+AttributeError: 'ROSGPSAdapter' object has no attribute 'readGPS'
+2025-12-15 17:08:47 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 17:08:47 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 2.7s)
+2025-12-15 17:08:47 - [Car Car_0] - INFO - _initialize_all_components:131 - Starting component initialization...
+2025-12-15 17:08:47 - [Car Car_0] - INFO - _initialize_path_planning:223 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 17:08:47 - [Car Car_0] - INFO - _initialize_path_planning:234 - Generated path with 1078 waypoints
+2025-12-15 17:08:47 - [Car Car_0] - INFO - _initialize_all_components:138 -   [1/4] Path planning ready
+2025-12-15 17:08:47 - [Car Car_0] - INFO - _initialize_qcar:304 - LIMO Car mode detected
+2025-12-15 17:08:47 - [Car Car_0] - INFO - _initialize_physical_qcar:359 - [LIMO/ROS] Skipping QCar and QCarGPS instantiation (handled by ROS adapters)
+2025-12-15 17:08:47 - [Car Car_0] - INFO - _wait_for_gps:379 - Waiting for initial GPS reading...
+2025-12-15 17:08:47 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: 'ROSGPSAdapter' object has no attribute 'readGPS'
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 312, in _initialize_qcar
+    if not self._wait_for_gps():
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 383, in _wait_for_gps
+    if self.vehicle_logic.gps.readGPS():
+AttributeError: 'ROSGPSAdapter' object has no attribute 'readGPS'
+2025-12-15 17:08:47 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 17:08:47 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 2.9s)
+2025-12-15 17:08:47 - [Car Car_0] - INFO - _initialize_all_components:131 - Starting component initialization...
+2025-12-15 17:08:47 - [Car Car_0] - INFO - _initialize_path_planning:223 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 17:08:47 - [Car Car_0] - INFO - _initialize_path_planning:234 - Generated path with 1078 waypoints
+2025-12-15 17:08:47 - [Car Car_0] - INFO - _initialize_all_components:138 -   [1/4] Path planning ready
+2025-12-15 17:08:47 - [Car Car_0] - INFO - _initialize_qcar:304 - LIMO Car mode detected
+2025-12-15 17:08:47 - [Car Car_0] - INFO - _initialize_physical_qcar:359 - [LIMO/ROS] Skipping QCar and QCarGPS instantiation (handled by ROS adapters)
+2025-12-15 17:08:47 - [Car Car_0] - INFO - _wait_for_gps:379 - Waiting for initial GPS reading...
+2025-12-15 17:08:47 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: 'ROSGPSAdapter' object has no attribute 'readGPS'
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 312, in _initialize_qcar
+    if not self._wait_for_gps():
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 383, in _wait_for_gps
+    if self.vehicle_logic.gps.readGPS():
+AttributeError: 'ROSGPSAdapter' object has no attribute 'readGPS'
+2025-12-15 17:08:47 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 17:08:47 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 3.1s)
+2025-12-15 17:08:47 - [Car Car_0] - INFO - _initialize_all_components:131 - Starting component initialization...
+2025-12-15 17:08:47 - [Car Car_0] - INFO - _initialize_path_planning:223 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 17:08:47 - [Car Car_0] - INFO - _initialize_path_planning:234 - Generated path with 1078 waypoints
+2025-12-15 17:08:47 - [Car Car_0] - INFO - _initialize_all_components:138 -   [1/4] Path planning ready
+2025-12-15 17:08:47 - [Car Car_0] - INFO - _initialize_qcar:304 - LIMO Car mode detected
+2025-12-15 17:08:47 - [Car Car_0] - INFO - _initialize_physical_qcar:359 - [LIMO/ROS] Skipping QCar and QCarGPS instantiation (handled by ROS adapters)
+2025-12-15 17:08:47 - [Car Car_0] - INFO - _wait_for_gps:379 - Waiting for initial GPS reading...
+2025-12-15 17:08:47 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: 'ROSGPSAdapter' object has no attribute 'readGPS'
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 312, in _initialize_qcar
+    if not self._wait_for_gps():
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 383, in _wait_for_gps
+    if self.vehicle_logic.gps.readGPS():
+AttributeError: 'ROSGPSAdapter' object has no attribute 'readGPS'
+2025-12-15 17:08:47 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 17:08:47 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 3.3s)
+2025-12-15 17:08:47 - [Car Car_0] - INFO - _initialize_all_components:131 - Starting component initialization...
+2025-12-15 17:08:47 - [Car Car_0] - INFO - _initialize_path_planning:223 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 17:08:47 - [Car Car_0] - INFO - _initialize_path_planning:234 - Generated path with 1078 waypoints
+2025-12-15 17:08:47 - [Car Car_0] - INFO - _initialize_all_components:138 -   [1/4] Path planning ready
+2025-12-15 17:08:47 - [Car Car_0] - INFO - _initialize_qcar:304 - LIMO Car mode detected
+2025-12-15 17:08:47 - [Car Car_0] - INFO - _initialize_physical_qcar:359 - [LIMO/ROS] Skipping QCar and QCarGPS instantiation (handled by ROS adapters)
+2025-12-15 17:08:47 - [Car Car_0] - INFO - _wait_for_gps:379 - Waiting for initial GPS reading...
+2025-12-15 17:08:47 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: 'ROSGPSAdapter' object has no attribute 'readGPS'
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 312, in _initialize_qcar
+    if not self._wait_for_gps():
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 383, in _wait_for_gps
+    if self.vehicle_logic.gps.readGPS():
+AttributeError: 'ROSGPSAdapter' object has no attribute 'readGPS'
+2025-12-15 17:08:47 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 17:08:47 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 3.6s)
+2025-12-15 17:08:47 - [Car Car_0] - INFO - _initialize_all_components:131 - Starting component initialization...
+2025-12-15 17:08:47 - [Car Car_0] - INFO - _initialize_path_planning:223 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 17:08:47 - [Car Car_0] - INFO - _initialize_path_planning:234 - Generated path with 1078 waypoints
+2025-12-15 17:08:47 - [Car Car_0] - INFO - _initialize_all_components:138 -   [1/4] Path planning ready
+2025-12-15 17:08:48 - [Car Car_0] - INFO - _initialize_qcar:304 - LIMO Car mode detected
+2025-12-15 17:08:48 - [Car Car_0] - INFO - _initialize_physical_qcar:359 - [LIMO/ROS] Skipping QCar and QCarGPS instantiation (handled by ROS adapters)
+2025-12-15 17:08:48 - [Car Car_0] - INFO - _wait_for_gps:379 - Waiting for initial GPS reading...
+2025-12-15 17:08:48 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: 'ROSGPSAdapter' object has no attribute 'readGPS'
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 312, in _initialize_qcar
+    if not self._wait_for_gps():
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 383, in _wait_for_gps
+    if self.vehicle_logic.gps.readGPS():
+AttributeError: 'ROSGPSAdapter' object has no attribute 'readGPS'
+2025-12-15 17:08:48 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 17:08:48 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 3.8s)
+2025-12-15 17:08:48 - [Car Car_0] - INFO - _initialize_all_components:131 - Starting component initialization...
+2025-12-15 17:08:48 - [Car Car_0] - INFO - _initialize_path_planning:223 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 17:08:48 - [Car Car_0] - INFO - _initialize_path_planning:234 - Generated path with 1078 waypoints
+2025-12-15 17:08:48 - [Car Car_0] - INFO - _initialize_all_components:138 -   [1/4] Path planning ready
+2025-12-15 17:08:48 - [Car Car_0] - INFO - _initialize_qcar:304 - LIMO Car mode detected
+2025-12-15 17:08:48 - [Car Car_0] - INFO - _initialize_physical_qcar:359 - [LIMO/ROS] Skipping QCar and QCarGPS instantiation (handled by ROS adapters)
+2025-12-15 17:08:48 - [Car Car_0] - INFO - _wait_for_gps:379 - Waiting for initial GPS reading...
+2025-12-15 17:08:48 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: 'ROSGPSAdapter' object has no attribute 'readGPS'
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 312, in _initialize_qcar
+    if not self._wait_for_gps():
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 383, in _wait_for_gps
+    if self.vehicle_logic.gps.readGPS():
+AttributeError: 'ROSGPSAdapter' object has no attribute 'readGPS'
+2025-12-15 17:08:48 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 17:08:48 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 4.0s)
+2025-12-15 17:08:48 - [Car Car_0] - INFO - _initialize_all_components:131 - Starting component initialization...
+2025-12-15 17:08:48 - [Car Car_0] - INFO - _initialize_path_planning:223 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 17:08:48 - [Car Car_0] - INFO - _initialize_path_planning:234 - Generated path with 1078 waypoints
+2025-12-15 17:08:48 - [Car Car_0] - INFO - _initialize_all_components:138 -   [1/4] Path planning ready
+2025-12-15 17:08:48 - [Car Car_0] - INFO - _initialize_qcar:304 - LIMO Car mode detected
+2025-12-15 17:08:48 - [Car Car_0] - INFO - _initialize_physical_qcar:359 - [LIMO/ROS] Skipping QCar and QCarGPS instantiation (handled by ROS adapters)
+2025-12-15 17:08:48 - [Car Car_0] - INFO - _wait_for_gps:379 - Waiting for initial GPS reading...
+2025-12-15 17:08:48 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: 'ROSGPSAdapter' object has no attribute 'readGPS'
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 312, in _initialize_qcar
+    if not self._wait_for_gps():
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 383, in _wait_for_gps
+    if self.vehicle_logic.gps.readGPS():
+AttributeError: 'ROSGPSAdapter' object has no attribute 'readGPS'
+2025-12-15 17:08:48 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 17:08:48 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 4.2s)
+2025-12-15 17:08:48 - [Car Car_0] - INFO - _initialize_all_components:131 - Starting component initialization...
+2025-12-15 17:08:48 - [Car Car_0] - INFO - _initialize_path_planning:223 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 17:08:48 - [Car Car_0] - INFO - _initialize_path_planning:234 - Generated path with 1078 waypoints
+2025-12-15 17:08:48 - [Car Car_0] - INFO - _initialize_all_components:138 -   [1/4] Path planning ready
+2025-12-15 17:08:48 - [Car Car_0] - INFO - _initialize_qcar:304 - LIMO Car mode detected
+2025-12-15 17:08:48 - [Car Car_0] - INFO - _initialize_physical_qcar:359 - [LIMO/ROS] Skipping QCar and QCarGPS instantiation (handled by ROS adapters)
+2025-12-15 17:08:48 - [Car Car_0] - INFO - _wait_for_gps:379 - Waiting for initial GPS reading...
+2025-12-15 17:08:48 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: 'ROSGPSAdapter' object has no attribute 'readGPS'
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 312, in _initialize_qcar
+    if not self._wait_for_gps():
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 383, in _wait_for_gps
+    if self.vehicle_logic.gps.readGPS():
+AttributeError: 'ROSGPSAdapter' object has no attribute 'readGPS'
+2025-12-15 17:08:48 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 17:08:48 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 4.4s)
+2025-12-15 17:08:48 - [Car Car_0] - INFO - _initialize_all_components:131 - Starting component initialization...
+2025-12-15 17:08:48 - [Car Car_0] - INFO - _initialize_path_planning:223 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 17:08:48 - [Car Car_0] - INFO - _initialize_path_planning:234 - Generated path with 1078 waypoints
+2025-12-15 17:08:48 - [Car Car_0] - INFO - _initialize_all_components:138 -   [1/4] Path planning ready
+2025-12-15 17:08:49 - [Car Car_0] - INFO - _initialize_qcar:304 - LIMO Car mode detected
+2025-12-15 17:08:49 - [Car Car_0] - INFO - _initialize_physical_qcar:359 - [LIMO/ROS] Skipping QCar and QCarGPS instantiation (handled by ROS adapters)
+2025-12-15 17:08:49 - [Car Car_0] - INFO - _wait_for_gps:379 - Waiting for initial GPS reading...
+2025-12-15 17:08:49 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: 'ROSGPSAdapter' object has no attribute 'readGPS'
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 312, in _initialize_qcar
+    if not self._wait_for_gps():
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 383, in _wait_for_gps
+    if self.vehicle_logic.gps.readGPS():
+AttributeError: 'ROSGPSAdapter' object has no attribute 'readGPS'
+2025-12-15 17:08:49 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 17:08:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 4.6s)
+2025-12-15 17:08:49 - [Car Car_0] - INFO - _initialize_all_components:131 - Starting component initialization...
+2025-12-15 17:08:49 - [Car Car_0] - INFO - _initialize_path_planning:223 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 17:08:49 - [Car Car_0] - INFO - _initialize_path_planning:234 - Generated path with 1078 waypoints
+2025-12-15 17:08:49 - [Car Car_0] - INFO - _initialize_all_components:138 -   [1/4] Path planning ready
+2025-12-15 17:08:49 - [Car Car_0] - INFO - _initialize_qcar:304 - LIMO Car mode detected
+2025-12-15 17:08:49 - [Car Car_0] - INFO - _initialize_physical_qcar:359 - [LIMO/ROS] Skipping QCar and QCarGPS instantiation (handled by ROS adapters)
+2025-12-15 17:08:49 - [Car Car_0] - INFO - _wait_for_gps:379 - Waiting for initial GPS reading...
+2025-12-15 17:08:49 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: 'ROSGPSAdapter' object has no attribute 'readGPS'
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 312, in _initialize_qcar
+    if not self._wait_for_gps():
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 383, in _wait_for_gps
+    if self.vehicle_logic.gps.readGPS():
+AttributeError: 'ROSGPSAdapter' object has no attribute 'readGPS'
+2025-12-15 17:08:49 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 17:08:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 4.8s)
+2025-12-15 17:08:49 - [Car Car_0] - INFO - _initialize_all_components:131 - Starting component initialization...
+2025-12-15 17:08:49 - [Car Car_0] - INFO - _initialize_path_planning:223 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 17:08:49 - [Car Car_0] - INFO - _initialize_path_planning:234 - Generated path with 1078 waypoints
+2025-12-15 17:08:49 - [Car Car_0] - INFO - _initialize_all_components:138 -   [1/4] Path planning ready
+2025-12-15 17:08:49 - [Car Car_0] - INFO - _initialize_qcar:304 - LIMO Car mode detected
+2025-12-15 17:08:49 - [Car Car_0] - INFO - _initialize_physical_qcar:359 - [LIMO/ROS] Skipping QCar and QCarGPS instantiation (handled by ROS adapters)
+2025-12-15 17:08:49 - [Car Car_0] - INFO - _wait_for_gps:379 - Waiting for initial GPS reading...
+2025-12-15 17:08:49 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: 'ROSGPSAdapter' object has no attribute 'readGPS'
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 312, in _initialize_qcar
+    if not self._wait_for_gps():
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 383, in _wait_for_gps
+    if self.vehicle_logic.gps.readGPS():
+AttributeError: 'ROSGPSAdapter' object has no attribute 'readGPS'
+2025-12-15 17:08:49 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 17:08:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 5.1s)
+2025-12-15 17:08:49 - [Car Car_0] - INFO - _initialize_all_components:131 - Starting component initialization...
+2025-12-15 17:08:49 - [Car Car_0] - INFO - _initialize_path_planning:223 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 17:08:49 - [Car Car_0] - INFO - _initialize_path_planning:234 - Generated path with 1078 waypoints
+2025-12-15 17:08:49 - [Car Car_0] - INFO - _initialize_all_components:138 -   [1/4] Path planning ready
+2025-12-15 17:08:49 - [Car Car_0] - INFO - _initialize_qcar:304 - LIMO Car mode detected
+2025-12-15 17:08:49 - [Car Car_0] - INFO - _initialize_physical_qcar:359 - [LIMO/ROS] Skipping QCar and QCarGPS instantiation (handled by ROS adapters)
+2025-12-15 17:08:49 - [Car Car_0] - INFO - _wait_for_gps:379 - Waiting for initial GPS reading...
+2025-12-15 17:08:49 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: 'ROSGPSAdapter' object has no attribute 'readGPS'
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 312, in _initialize_qcar
+    if not self._wait_for_gps():
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 383, in _wait_for_gps
+    if self.vehicle_logic.gps.readGPS():
+AttributeError: 'ROSGPSAdapter' object has no attribute 'readGPS'
+2025-12-15 17:08:49 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 17:08:49 - [Car Car_0] - INFO - _log_initialization_progress:107 - [INIT] Component initialization in progress... (5.1s elapsed)
+2025-12-15 17:08:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 5.3s)
+2025-12-15 17:08:49 - [Car Car_0] - INFO - _initialize_all_components:131 - Starting component initialization...
+2025-12-15 17:08:49 - [Car Car_0] - INFO - _initialize_path_planning:223 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 17:08:49 - [Car Car_0] - INFO - _initialize_path_planning:234 - Generated path with 1078 waypoints
+2025-12-15 17:08:49 - [Car Car_0] - INFO - _initialize_all_components:138 -   [1/4] Path planning ready
+2025-12-15 17:08:49 - [Car Car_0] - INFO - _initialize_qcar:304 - LIMO Car mode detected
+2025-12-15 17:08:49 - [Car Car_0] - INFO - _initialize_physical_qcar:359 - [LIMO/ROS] Skipping QCar and QCarGPS instantiation (handled by ROS adapters)
+2025-12-15 17:08:49 - [Car Car_0] - INFO - _wait_for_gps:379 - Waiting for initial GPS reading...
+2025-12-15 17:08:49 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: 'ROSGPSAdapter' object has no attribute 'readGPS'
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 312, in _initialize_qcar
+    if not self._wait_for_gps():
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 383, in _wait_for_gps
+    if self.vehicle_logic.gps.readGPS():
+AttributeError: 'ROSGPSAdapter' object has no attribute 'readGPS'
+2025-12-15 17:08:49 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 17:08:49 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 5.5s)
+2025-12-15 17:08:49 - [Car Car_0] - INFO - _initialize_all_components:131 - Starting component initialization...
+2025-12-15 17:08:49 - [Car Car_0] - INFO - _initialize_path_planning:223 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 17:08:49 - [Car Car_0] - INFO - _initialize_path_planning:234 - Generated path with 1078 waypoints
+2025-12-15 17:08:49 - [Car Car_0] - INFO - _initialize_all_components:138 -   [1/4] Path planning ready
+2025-12-15 17:08:50 - [Car Car_0] - INFO - _initialize_qcar:304 - LIMO Car mode detected
+2025-12-15 17:08:50 - [Car Car_0] - INFO - _initialize_physical_qcar:359 - [LIMO/ROS] Skipping QCar and QCarGPS instantiation (handled by ROS adapters)
+2025-12-15 17:08:50 - [Car Car_0] - INFO - _wait_for_gps:379 - Waiting for initial GPS reading...
+2025-12-15 17:08:50 - [Car Car_0] - ERROR - log_error:547 - QCar initialization failed: 'ROSGPSAdapter' object has no attribute 'readGPS'
+Traceback (most recent call last):
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 312, in _initialize_qcar
+    if not self._wait_for_gps():
+  File "/home/agilex/agilex_ws/build/limo_nav_huy_test/limo_nav_huy_test/multi_vehicle_RealCar/qcar/StateMachine/initializing_state.py", line 383, in _wait_for_gps
+    if self.vehicle_logic.gps.readGPS():
+AttributeError: 'ROSGPSAdapter' object has no attribute 'readGPS'
+2025-12-15 17:08:50 - [Car Car_0] - ERROR - log_error:549 - QCar hardware initialization failed
+2025-12-15 17:08:50 - [Car Car_0] - INFO - update:99 - [STATE] Current: INITIALIZING (for 5.7s)
+2025-12-15 17:08:50 - [Car Car_0] - INFO - _initialize_all_components:131 - Starting component initialization...
+2025-12-15 17:08:50 - [Car Car_0] - INFO - _initialize_path_planning:223 - Node sequence (6 nodes): [10, 2, 4, 6, 8, 10]
+2025-12-15 17:08:50 - [Car Car_0] - INFO - _initialize_path_planning:234 - Generated path with 1078 waypoints
+2025-12-15 17:08:50 - [Car Car_0] - INFO - _initialize_all_components:138 -   [1/4] Path planning ready

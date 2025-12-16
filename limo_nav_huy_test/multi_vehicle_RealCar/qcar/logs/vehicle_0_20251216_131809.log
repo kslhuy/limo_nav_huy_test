@@ -1,0 +1,19 @@
+2025-12-16 13:18:09 - [Car Car_0] - INFO - __init__:48 - ============================================================
+2025-12-16 13:18:09 - [Car Car_0] - INFO - __init__:49 - Vehicle Controller Initialized - Car ID: 0
+2025-12-16 13:18:09 - [Car Car_0] - INFO - __init__:50 - ============================================================
+2025-12-16 13:18:09 - [Car Car_0] - INFO - __init__:110 - V2VManager initialized for vehicle 0
+2025-12-16 13:18:09 - [Car Car_0] - INFO - __init__:87 - Creating Ground Station client...
+2025-12-16 13:18:09 - [Car Car_0] - INFO - _initialize_network_2_GroundStation:595 - Creating Ground Station client...
+2025-12-16 13:18:09 - [Car Car_0] - INFO - initialize_network:75 - Connecting to Ground Station at 192.168.137.1:5000
+2025-12-16 13:18:09 - [Car Car_0] - INFO - initialize_network:84 - Connection attempt 1 to Ground Station...
+2025-12-16 13:18:09 - [Car Car_0] - INFO - initialize_network:88 - Connected to Ground Station successfully in 0.03s
+2025-12-16 13:18:09 - [Car Car_0] - INFO - _communication_loop:154 - Ground Station communication loop started
+2025-12-16 13:18:09 - [Car Car_0] - INFO - start_threads:145 - Ground Station communication thread started
+2025-12-16 13:18:09 - [Car Car_0] - INFO - _initialize_network_2_GroundStation:612 - Ground Station communication established
+2025-12-16 13:18:09 - [Car Car_0] - INFO - __init__:95 - Initializing QCar hardware...
+2025-12-16 13:18:09 - [Car Car_0] - INFO - __init__:86 - Loaded controller config: Long=cacc, Lat=pure_pursuit
+2025-12-16 13:18:09 - [Car Car_0] - INFO - enter:51 - Entering INITIALIZING state
+2025-12-16 13:18:09 - [Car Car_0] - INFO - __init__:57 -  State machine initialized in INITIALIZING state
+2025-12-16 13:18:09 - [Car Car_0] - INFO - __init__:111 - VehicleObserver initialized: vehicle_id=0, 
+2025-12-16 13:18:09 - [Car Car_0] - INFO - register_state_listeners:173 - [+] Event system connected to state machine
+2025-12-16 13:18:09 - [Car Car_0] - INFO - initialize_event_system:71 - [E] Event system initialized
