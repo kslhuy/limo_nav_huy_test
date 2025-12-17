@@ -1,1 +1,7 @@
 __pycache__/
+build/
+install/
+log/
+*.log
+data_logs/
+logs/
