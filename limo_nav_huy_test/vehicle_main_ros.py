@@ -151,19 +151,12 @@ class ROSGPSAdapter:
         # Match real QCarGPS interface - orientation array [roll, pitch, yaw]
         self.orientation = np.array([0.0, 0.0, initialPose[2]])
 
-        # if initialPose is not None:
-        #     self._x, self._y, self._yaw = initialPose
-        # else:
-        #     self._x = 0.0
-        #     self._y = 0.0
-        #     self._yaw = 0.0
         self._last_update = time.time()
         
     def readGPS(self):
         """Mimic QCarGPS.readGPS() interface
         but actually returns the latest pose from ROS subscriptions."""
-        # Returns: [x, y, z, ...]
-        # return [self.position[0], self.position[1], 0.0]
+
         return True
 
     
@@ -232,7 +225,7 @@ class VehicleControlFullSystem(Node):
         self.latest_limo_status = None
         
         # ===== ROS PUBLISHERS ===== (Create BEFORE adapters)
-        self.motor_pub = self.create_publisher(Twist, "/cmd_vel", 20)
+        self.motor_pub = self.create_publisher(Twist, "/cmd_vel", 30)
         
         # ===== CREATE ROS ADAPTERS =====
         # These replace the QCar and GPS hardware interfaces
