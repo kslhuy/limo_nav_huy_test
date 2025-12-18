@@ -21,7 +21,8 @@ setup(
     entry_points={
         'console_scripts': [
             'wandering = limo_nav_huy_test.wandering:main',
-            'vehicle_main_ros = limo_nav_huy_test.vehicle_main_ros:main'
+            'vehicle_main_ros = limo_nav_huy_test.vehicle_main_ros:main',
+            'waypoints = limo_nav_huy_test.waypoints:main'
         ],
     },
 )
