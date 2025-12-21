@@ -16,6 +16,7 @@ yolo:
   pulse_length_multiplier: 3
 
 network:
+  # host_ip: 127.0.0.1  # Set to host PC IP for remote control
   host_ip: 192.168.137.1  # Set to host PC IP for remote control
   base_port: 5000
   car_id: 0

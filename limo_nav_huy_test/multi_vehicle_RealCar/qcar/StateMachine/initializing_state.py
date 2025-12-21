@@ -211,7 +211,19 @@ class InitializingState(StateBase):
             return True
         
         try:
+            # In ROS mode, path comes from /plan topic (waypoints node)
+            # Just verify it has been received
+            if hasattr(self.vehicle_logic, '_ros_mode') and self.vehicle_logic._ros_mode:
+                if hasattr(self.vehicle_logic, 'waypoint_sequence') and self.vehicle_logic.waypoint_sequence is not None:
+                    self.logger.logger.info(
+                        f"Using path from ROS topic (/plan): {self.vehicle_logic.waypoint_sequence.shape[1]} waypoints"
+                    )
+                    return True
+                else:
+                    self.logger.logger.info("Waiting for path from /plan topic...")
+                    return False
             
+            # Non-ROS mode: Generate path from roadmap (original behavior)
             # Create roadmap
             self.vehicle_logic.roadmap = SDCSRoadMap(
                 leftHandTraffic=self.config.path.left_hand_traffic,

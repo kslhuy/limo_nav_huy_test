@@ -1,12 +1,10 @@
 """
-ROS 2 Version of vehicle_main.py (Full Vehicle Control System)
+ROS 2 Version of vehicle_main.py (Full Vehicle Control System) - QCar Coordinate Style
 
-This is the ROS 2 adaptation of the standalone vehicle_main.py, providing:
-- VehicleLogic integration via thin wrapper pattern
-- Hardware abstraction using ROS adapters (replaces QCar/GPS hardware)
-- Original TCP/UDP communication preserved (Ground Station, V2V)
-- ROS-specific initialization state (bypasses hardware init)
-- All command-line arguments migrated to ROS parameters
+This version uses QCar's coordinate system approach:
+- map_rotated frame instead of map
+- QCar-style transformation pipeline
+- Compatible with QCar's SDCSRoadMap coordinate system
 """
 
 import sys
@@ -14,7 +12,6 @@ import os
 import time
 import numpy as np
 from threading import Event
-# from math import atan2
 import math
 
 import rclpy
@@ -28,66 +25,56 @@ from tf2_ros import Buffer, TransformListener
 from scipy.spatial.transform import Rotation as R
 
 # ===== ADD PATH TO QCAR FOLDER =====
-# Path to multi_vehicle_RealCar (located in same package directory)
 current_dir = os.path.dirname(os.path.abspath(__file__))
 qcar_path = os.path.join(current_dir, "multi_vehicle_RealCar")
 
-# Add to path if exists
 if os.path.exists(qcar_path):
     if qcar_path not in sys.path:
         sys.path.insert(0, qcar_path)
         print(f"[PATH] Added to sys.path: {qcar_path}")
 else:
     print(f"[PATH ERROR] QCar path not found: {qcar_path}")
-    print(f"[PATH ERROR] Current dir: {current_dir}")
     raise FileNotFoundError(f"Required directory not found: {qcar_path}")
 
-# Now import from qcar folder
 from qcar.config_main import VehicleMainConfig
 from qcar.vehicle_logic import VehicleLogic
 from qcar.command_types import CommandType
 from limo.limo import ROSQCarAdapter, ROSGPSAdapterQCar
 
 
-# ===== MAIN ROS NODE =====
-class VehicleControlFullSystem(Node):
-    """ROS 2 wrapper for complete VehicleLogic system"""
+# ===== MAIN ROS NODE (QCar Style) =====
+class VehicleControlFullSystemQCar(Node):
+    """ROS 2 wrapper for complete VehicleLogic system - QCar coordinate style"""
     
     def __init__(self):
-        super().__init__('vehicle_control_full_system')
+        super().__init__('vehicle_control_full_system_qcar')
         
-        # TF buffer and listener for transform lookups
         self.tf_buffer = Buffer()
         self.tf_listener = TransformListener(self.tf_buffer, self)
         
         self.get_logger().info("="*70)
-        self.get_logger().info("Initializing Full Vehicle Control System (ROS 2 Wrapper)")
+        self.get_logger().info("Initializing Full Vehicle Control System (QCar Coordinate Style)")
         self.get_logger().info("="*70)
         
         # ===== ROS PARAMETERS =====
-        # Migrated from vehicle_main.py command-line arguments
         self.declare_parameters(
             namespace='',
             parameters=[
                 ('car_id', 3),
                 ('v_ref', 0.75),
-                ('controller_rate', 100),  # 100 Hz for simulation
-                ('calibrate', False),  # Recalibrate vehicle before starting
-                ('path_number', 0),  # Node configuration (0, 1, 2)
-                ('no_steering', False),  # Disable steering control
-                ('config_file', ''),  # Custom config file path (empty = use default)
-                ('log_dir', ''),  # Custom log directory (empty = use config default)
-                ('data_log_dir', ''),  # Custom data log directory (empty = use config default)
-                ('initial_x', 0.0),  # Initial pose X
-                ('initial_y', 0.0),  # Initial pose Y
-                ('initial_yaw', 0.0),  # Initial pose yaw in degrees
-                ('ENCODER_COUNTS_PER_REV', 720.0),
-                ('WHEEL_RADIUS', 0.035),
-                ('PIN_TO_SPUR_RATIO', 0.5),
+                ('controller_rate', 100),
+                ('calibrate', False),
+                ('path_number', 0),
+                ('no_steering', False),
+                ('config_file', ''),
+                ('log_dir', ''),
+                ('data_log_dir', ''),
+                ('initial_x', 0.0),
+                ('initial_y', 0.0),
+                ('initial_yaw', 0.0),
             ]
         )
         
-        # Get parameter values
         car_id = self.get_parameter('car_id').value
         v_ref = self.get_parameter('v_ref').value
         controller_rate = self.get_parameter('controller_rate').value
@@ -101,38 +88,26 @@ class VehicleControlFullSystem(Node):
         initial_y = self.get_parameter('initial_y').value
         initial_yaw = self.get_parameter('initial_yaw').value
         
-        # self.ENCODER_COUNTS_PER_REV = self.get_parameter('ENCODER_COUNTS_PER_REV').value
-        # self.WHEEL_RADIUS = self.get_parameter('WHEEL_RADIUS').value
-        # self.PIN_TO_SPUR_RATIO = self.get_parameter('PIN_TO_SPUR_RATIO').value
-        
-        # # Motor speed unit conversion
-        # self.CPS_TO_MPS = (1/(self.ENCODER_COUNTS_PER_REV*4) 
-        #     * self.PIN_TO_SPUR_RATIO * 2*np.pi * self.WHEEL_RADIUS)
-        
-        self.get_logger().info(f"Car ID: {car_id}, v_ref: {v_ref}, rate: {controller_rate} Hz")
+        self.get_logger().info(f"QCar Style - Car ID: {car_id}, v_ref: {v_ref}, rate: {controller_rate} Hz")
         
         # ===== INITIALIZE DATA STORAGE =====
         self.latest_odom = None
         self.latest_imu = None
         self.latest_limo_status = None
         
-        # ===== ROS PUBLISHERS ===== (Create BEFORE adapters)
+        # ===== ROS PUBLISHERS =====
         self.motor_pub = self.create_publisher(Twist, "/cmd_vel", 30)
         
-        # ===== CREATE ROS ADAPTERS =====
-        # These replace the QCar and GPS hardware interfaces
+        # ===== CREATE ROS ADAPTERS (QCar Style) =====
         self.qcar_adapter = ROSQCarAdapter(self)
-        self.gps_adapter = ROSGPSAdapter(self, self.tf_buffer)
-        self.get_logger().info("✓ ROS hardware adapters created")
+        self.gps_adapter = ROSGPSAdapterQCar(self, self.tf_buffer)
+        self.get_logger().info("✓ ROS hardware adapters created (QCar style)")
         
         # Send initial pose to AMCL
-        # -1.28205, -0.45991, -0.7330
         initial_x = -1.28205
         initial_y = -0.45991
-        initial_yaw = -0.7330 * (180.0 / 3.1415926)  # Convert to degrees
+        initial_yaw = -0.7330 * (180.0 / 3.1415926)
         self.gps_adapter.send_initial_pose(initial_x, initial_y, initial_yaw)
-        # Note: Ground Station telemetry uses TCP (original), not ROS topics
-        # Note: V2V uses UDP multicast (original), not ROS DDS
         
         # ===== ROS SUBSCRIPTIONS =====
         self.odom_sub = self.create_subscription(
@@ -144,16 +119,14 @@ class VehicleControlFullSystem(Node):
         self.limo_status_sub = self.create_subscription(
             LimoStatus, '/limo_status', self._limo_status_callback, 10
         )
+        # Subscribe to QCar-style path topic
         self.path_sub = self.create_subscription(
-            Path, '/plan', self._path_callback, 10
+            Path, '/plan_qcar', self._path_callback, 10
         )
-
-        # Note: V2V uses original UDP multicast, not ROS subscriptions
         
         # ===== LOAD CONFIGURATION =====
         self.get_logger().info("Loading VehicleMainConfig...")
         
-        # Use custom config file if specified, otherwise default
         if config_file and config_file.strip():
             config_path = config_file
         else:
@@ -165,44 +138,26 @@ class VehicleControlFullSystem(Node):
             elif config_path.endswith('.yaml') or config_path.endswith('.yml'):
                 config = VehicleMainConfig.from_yaml(config_path)
             else:
-                self.get_logger().error("Config file must be .json or .yaml")
                 raise ValueError(f"Invalid config file format: {config_path}")
             self.get_logger().info(f"Loaded config from: {config_path}")
         else:
-            if config_file and config_file.strip():
-                self.get_logger().error(f"Config file not found: {config_path}")
-                raise FileNotFoundError(f"Config file not found: {config_path}")
-            else:
-                config = VehicleMainConfig()
-        # Override config with ROS parameters (migrated from vehicle_main.py args)
+            config = VehicleMainConfig()
+            
         config.network.car_id = car_id
         config.timing.controller_update_rate = controller_rate
         config.path.path_number = path_number
-        # config.control.no_steering = no_steering
         
-        # Override log directories if specified (use absolute paths for ROS)
         if log_dir and log_dir.strip():
             config.logging.log_dir = log_dir
-            self.get_logger().info(f"Using custom log directory: {log_dir}")
         else:
-            # Use absolute path to qcar/logs by default
             config.logging.log_dir = os.path.join(qcar_path, 'qcar', 'logs')
-            self.get_logger().info(f"Using default log directory: {config.logging.log_dir}")
         
         if data_log_dir and data_log_dir.strip():
             config.logging.data_log_dir = data_log_dir
-            self.get_logger().info(f"Using custom data log directory: {data_log_dir}")
         else:
-            # Use absolute path to qcar/data_logs by default
             config.logging.data_log_dir = os.path.join(qcar_path, 'qcar', 'data_logs')
-            self.get_logger().info(f"Using default data log directory: {config.logging.data_log_dir}")
         
-        # Store calibration flag for potential use
         self.calibrate = calibrate
-        if calibrate:
-            self.get_logger().warning("Calibration requested but not yet implemented in ROS mode")
-        if calibrate:
-            self.get_logger().warning("Calibration requested but not yet implemented in ROS mode")
         
         # ===== CREATE VEHICLE LOGIC =====
         self.kill_event = Event()
@@ -210,97 +165,54 @@ class VehicleControlFullSystem(Node):
         
         self.vehicle_logic = VehicleLogic(config, self.kill_event)
         
-        # **CRITICAL**: Replace hardware interfaces with ROS adapters
+        # Replace hardware interfaces with ROS adapters
         self.vehicle_logic.qcar = self.qcar_adapter
         self.vehicle_logic.gps = self.gps_adapter
-        
-        # Set reference velocity
         self.vehicle_logic.v_ref = v_ref
         
-        # NOTE: Only the timer-based callbacks below should call VehicleLogic methods directly.
-        # The ROS topic callbacks (odom, imu, status, command) should only update the adapters or queue commands.
-        # Do NOT call VehicleLogic methods directly from topic callbacks.
-        # This keeps the logic clean and avoids race conditions.
-        
-        # **ORIGINAL TCP/UDP COMMUNICATION PRESERVED**
-        # VehicleLogic.__init__() already created these components:
-        # 1. self.v2v_manager (line 69-77 in vehicle_logic.py) - UDP multicast
-        # 2. self.client_Ground_Station (line 93 in vehicle_logic.py) - TCP client
-        # These will start automatically during state machine initialization
-        # if hasattr(self.vehicle_logic, 'v2v_manager'):
-        #     self.get_logger().info(f"✓ V2V Manager ready (UDP port {self.vehicle_logic.v2v_manager.base_port})")
-        # if hasattr(self.vehicle_logic, 'client_Ground_Station'):
-        #     self.get_logger().info(f"✓ Ground Station client ready (TCP {config.network.host_ip}:{config.network.port})")
-        
-        # **OVERRIDE INITIALIZATION STATE** for ROS
-        # Replace hardware initialization with ROS-aware version
         self._setup_ros_initialization_override()
-        
         self.get_logger().info("VehicleLogic created successfully")
         
-        # # Send initial pose to AMCL using ROS parameters
-        # self.gps_adapter.send_initial_pose(initial_x, initial_y, initial_yaw)
-        # self.get_logger().info(f"Using initial pose from parameters: x={initial_x}, y={initial_y}, yaw={initial_yaw}°")
-        
         # ===== ROS TIMERS FOR CONTROL LOOPS =====
-        # Observer update timer (200 Hz for high-rate state estimation)
-        self.observer_rate = 150  # Hz
+        self.observer_rate = 150
         self.observer_timer = self.create_timer(1.0/self.observer_rate, self._observer_callback)
         
-        # Main control timer (100 Hz)
         control_period = 1.0 / controller_rate
         self.control_timer = self.create_timer(control_period, self._control_callback)
         
-        # Note: Telemetry and V2V handled by original TCP/UDP threads in VehicleLogic
-        # No ROS timers needed for these
-        
-        # Timing tracking
         self.last_control_time = time.time()
         self.last_observer_time = time.time()
         self.control_dt = control_period
         
-        # ROS topic readiness flags for state machine initialization
+        # ROS topic readiness flags
         self.topics_ready = False
         self.pose_received = False
         self.joint_received = False
         self.path_received = False
         
-        # Initialization check timer (runs until topics are ready)
         self.init_check_timer = self.create_timer(0.1, self._check_initialization)
-        
-        # TF update timer for GPS pose (10 Hz)
         self.tf_update_timer = self.create_timer(0.1, self._update_gps_from_tf)
         
         self.get_logger().info("="*70)
-        self.get_logger().info("Full Vehicle Control System Ready!")
+        self.get_logger().info("Full Vehicle Control System Ready! (QCar Coordinate Style)")
+        self.get_logger().info("Using map_rotated frame")
         self.get_logger().info("="*70)
         
     # ===== ROS CALLBACKS =====
     
     def _odom_callback(self, msg: Odometry):
         """Update motor tach from odometry data"""
-        # Update motor speed from odometry twist
         linear_vel = msg.twist.twist.linear.x
         self.qcar_adapter.update_motor_tach(linear_vel)
         
-        # Mark odom as received for initialization check
         if not self.pose_received:
             self.pose_received = True
             self.get_logger().info("✓ Odometry topic connected")
     
     def _limo_status_callback(self, msg: LimoStatus):
         """Handle Limo status updates"""
-        # Store Limo-specific status for adapter/read() usage
-        # self.qcar_adapter
-        
-        # self.latest_limo_status = msg
-        # if hasattr(self, 'qcar_adapter'):
-        # self.get_logger().info("Limo status callback triggered")
-        
         self.qcar_adapter.update_Limo_status(msg)
-
-        # self.get_logger().info(f"Joint received: {self.joint_received}")
-
+        
         if not self.joint_received:
             self.joint_received = True
             self.get_logger().info("✓ Limo status topic connected")
@@ -313,119 +225,86 @@ class VehicleControlFullSystem(Node):
         self.qcar_adapter.update_accel(accel_x, msg.linear_acceleration.y, msg.linear_acceleration.z)
         
     def _path_callback(self, msg: Path):
-        """Receive path from waypoints node and convert to VehicleLogic format"""
+        """Receive path from waypoints_qcar node (already in map_rotated frame)"""
         if len(msg.poses) < 2:
             self.get_logger().warning("Received path with less than 2 waypoints, ignoring")
             return
         
-        # Convert Path message to numpy array format expected by VehicleLogic
-        # Format: [[x1, x2, ...], [y1, y2, ...], [theta1, theta2, ...]]
         waypoints_x = []
         waypoints_y = []
         
-        for i, pose_stamped in enumerate(msg.poses):
+        for pose_stamped in msg.poses:
             waypoints_x.append(pose_stamped.pose.position.x)
             waypoints_y.append(pose_stamped.pose.position.y)
         
-        # Convert to numpy array (2xN format for VehicleLogic)
-        import numpy as np
         waypoint_sequence = np.array([waypoints_x, waypoints_y])
-        
-        # Store in vehicle_logic
         self.vehicle_logic.waypoint_sequence = waypoint_sequence
         
-        # Mark as received
         if not self.path_received:
             self.path_received = True
-            self.get_logger().info(f"✓ Path received: {waypoint_sequence.shape[1]} waypoints")
+            self.get_logger().info(f"✓ QCar-style path received: {waypoint_sequence.shape[1]} waypoints")
             self.get_logger().info(f"  Start: ({waypoints_x[0]:.2f}, {waypoints_y[0]:.2f})")
             self.get_logger().info(f"  End: ({waypoints_x[-1]:.2f}, {waypoints_y[-1]:.2f})")
-
     
     # ===== INITIALIZATION CHECK =====
     
     def _check_initialization(self):
-        """Check if ROS topics are connected before allowing state machine to proceed"""
+        """Check if ROS topics are connected"""
         if self.topics_ready:
-            return  # Already initialized
+            return
         
-        # Check if we've received at least one message from essential topics
         if self.pose_received and self.joint_received and self.path_received:
             if not self.topics_ready:
                 self.get_logger().info("="*70)
                 self.get_logger().info("✓ ALL ROS TOPICS READY - State Machine Can Initialize")
                 self.get_logger().info("="*70)
                 self.topics_ready = True
-                
-                # Cancel this timer
                 self.init_check_timer.cancel()
                 
-                # Signal to ROS InitializingState that topics are ready
                 if hasattr(self.vehicle_logic, '_ros_topics_ready'):
                     self.vehicle_logic._ros_topics_ready = True
-                
-                # Allow VehicleLogic state machine to proceed from INITIALIZING state
-        else:
-            # Still waiting
-            if not self.pose_received:
-                pose_pub_count = len([p for p in self.get_publishers_info_by_topic('/odom')])
-                self.get_logger().info(f"Waiting for /odom... (publishers: {pose_pub_count})")
-            if not self.joint_received:
-                status_pub_count = len([p for p in self.get_publishers_info_by_topic('/limo_status')])
-                self.get_logger().info(f"Waiting for /limo_status... (publishers: {status_pub_count})")
-            if not self.path_received:
-                path_pub_count = len([p for p in self.get_publishers_info_by_topic('/plan')])
-                self.get_logger().info(f"Waiting for /plan... (publishers: {path_pub_count})")
     
     def _update_gps_from_tf(self):
-        """Update GPS adapter from TF transform"""
+        """Update GPS adapter from TF transform (map_rotated → base_link)"""
         self.gps_adapter.update_from_tf()
     
-    # ===== OBSERVER UPDATE LOOP (200 Hz) =====
+    # ===== OBSERVER UPDATE LOOP =====
     
     def _observer_callback(self):
-        """High-rate observer update (200 Hz) - runs independently of control loop"""
+        """High-rate observer update"""
         if not self.topics_ready:
-            return  # Don't run observer until topics are ready
+            return
             
         current_time = time.time()
         dt = current_time - self.last_observer_time
         self.last_observer_time = current_time
         
         try:
-            # Update sensor data from cached ROS data
             self.vehicle_logic._update_sensor_data(dt)
-            
-            # Run observer update at 200 Hz
             self.vehicle_logic._observer_update(dt)
-            
         except Exception as e:
             self.get_logger().error(f"Observer update error: {e}")
     
     # ===== CONTROL LOOP =====
     
     def _control_callback(self):
-        """Main control loop (100 Hz) - delegates to VehicleLogic"""
+        """Main control loop"""
         if not self.topics_ready:
-            return  # Don't run control until topics are ready
+            return
             
         current_time = time.time()
         dt = current_time - self.last_control_time
         self.last_control_time = current_time
         
         try:
-            # Observer runs separately at 200 Hz, so we skip it here
-            # Just run control logic (state machine update)
             success = self.vehicle_logic._control_logic_update(dt)
             
             if not success:
                 self.get_logger().warning("Control logic update failed")
 
-            # 4. Communication Tasks (each manages own rate internally)
-            self.vehicle_logic._send_telemetry_to_ground_station()  # 10Hz internal rate-limiting
-            self.vehicle_logic._process_queued_commands()  # No rate limit - process as fast as possible
-            self.vehicle_logic._broadcast_v2v_state()  # V2VManager handles internal rate-limiting
-
+            self.vehicle_logic._send_telemetry_to_ground_station()
+            self.vehicle_logic._process_queued_commands()
+            self.vehicle_logic._broadcast_v2v_state()
             self.vehicle_logic.loop_counter += 1
 
         except Exception as e:
@@ -434,16 +313,14 @@ class VehicleControlFullSystem(Node):
             traceback.print_exc()
         
     def _setup_ros_initialization_override(self):
-        """Setup ROS-specific initialization that bypasses hardware init"""
-        # Mark ROS mode and signal that topics are not yet ready
+        """Setup ROS-specific initialization"""
         self.vehicle_logic._ros_mode = True
-        self.vehicle_logic._ros_topics_ready = False  # Will be set by _check_initialization
-        
+        self.vehicle_logic._ros_topics_ready = False
         self.get_logger().info("✓ ROS-specific initialization mode enabled")
     
     def destroy_node(self):
         """Clean shutdown"""
-        self.get_logger().info("Shutting down VehicleControlFullSystem...")
+        self.get_logger().info("Shutting down VehicleControlFullSystemQCar...")
         self.kill_event.set()
         
         if hasattr(self, 'vehicle_logic'):
@@ -457,7 +334,7 @@ def main(args=None):
     rclpy.init(args=args)
     
     try:
-        node = VehicleControlFullSystem()
+        node = VehicleControlFullSystemQCar()
         rclpy.spin(node)
     except KeyboardInterrupt:
         print("\nShutdown requested (Ctrl+C)")
@@ -466,7 +343,6 @@ def main(args=None):
         import traceback
         traceback.print_exc()
     finally:
-        # Node will not be destroyed automatically here. You must call node.destroy_node() explicitly when you want to shut down.
         rclpy.shutdown()
 
 

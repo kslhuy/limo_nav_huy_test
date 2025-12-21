@@ -63,7 +63,94 @@ ros2 run limo_nav_huy_test vehicle_main_ros \
 ```
 
 
+
+
+### RUN Standard System - Map Frame (Original Limo Style)
+
+Terminal 1 - Start physical modules:
+
+```
+ros2 launch limo_bringup limo_start.launch.py
+```
+
+Terminal 2 - Start navigation stack (includes waypoints):
+```
+ros2 launch limo_nav_huy_test maptest.launch.py
+```
+
+Terminal 3 - Start vehicle controller:
+
+```
+ros2 run limo_nav_huy_test vehicle_main_ros
+```
+
+(Optional) Set initial pose manually:
+```
+ros2 run limo_nav_huy_test smart_goal_sender
+```
+
+---
+
+### RUN QCar-Style System - Map_Rotated Frame (QCar Compatible)
+
+**Option 1: Single Launch File (Recommended)**
+
+Terminal 1 - Start physical modules:
+```
+ros2 launch limo_bringup limo_start.launch.py
+```
+
+Terminal 2 - Start QCar-style navigation + controller:
+```
+ros2 launch limo_nav_huy_test navigationV2V_qcar_frames.launch.py
+```
+
+**Option 2: Separate Terminals (For debugging)**
+
+Terminal 1 - Start physical modules:
+```
+ros2 launch limo_bringup limo_start.launch.py
+```
+
+Terminal 2 - Start map and localization:
+```
+ros2 launch limo_nav_huy_test maptest.launch.py
+```
+
+Terminal 3 - Create map_rotated frame:
+```
+ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 map map_rotated
+```
+
+Terminal 4 - Start QCar-style waypoints:
+```
+ros2 run limo_nav_huy_test waypoints_qcar
+```
+
+Terminal 5 - Start QCar-style vehicle controller:
+```
+ros2 run limo_nav_huy_test vehicle_main_ros_qcar
+```
+
+ros2 run limo_nav_huy_test waypoint_alignment_helper
+
+**Adjust QCar Waypoint Parameters:**
+```bash
+# Adjust translation offset [x, y]
+ros2 param set /waypoints_qcar translation_offset [0.0, 0.0]
+
+# Adjust rotation (degrees, applied with negative sign like QCar)
+ros2 param set /waypoints_qcar rotation_offset 90.0
+
+# Adjust scale
+ros2 param set /waypoints_qcar scale 1.0
+```
+
+
+
 ### Build - and test Sysem multi vehicle V2V package 
+
+ros2 launch limo_nav_huy_test maptest.launch.py
 ```
 colcon build --packages-select limo_nav_huy_test
 ```

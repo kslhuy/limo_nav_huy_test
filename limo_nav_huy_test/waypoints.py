@@ -29,7 +29,7 @@ class Waypoints(Node):
         
         self.nodeSequence = self.get_parameter("nodeSequence").value
         self.roadmap = SDCSRoadMap(leftHandTraffic=False , useSmallMap=True)
-        self.waypointSequence = self.roadmap.generate_path(self.nodeSequence)
+        self.waypointSequence = self.roadmap.generate_path(self.nodeSequence)*0.975  # Scale down
         self.waypoints_x = self.waypointSequence[0]
         self.waypoints_y = self.waypointSequence[1]
 
